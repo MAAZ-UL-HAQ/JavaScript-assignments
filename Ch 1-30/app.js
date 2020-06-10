@@ -340,13 +340,24 @@
 
 // ****************************** Task 3 ******************************
 
-var usrname = prompt("Please enter your name","Muhammad");
-alert("Hello! " + usrname.toUpperCase() +", Welcome to the Page.");
-
-// ****************************** Task 4 ******************************
+// var usrname = prompt("Please enter your name","Muhammad");
+// alert("Hello! " + usrname.toUpperCase() +", Welcome to the Page.");
 
 // ****************************** Task 5 ******************************
 
+var number=prompt("Enter any number: ","5");
+
+if(number === null || number === ""){
+    number=5;
+}
+else{
+    number=Number(number);
+}
+
+for(var i=1; i<=10; i++)
+{
+    document.write(number+" x "+i+" = "+number*i+"<br>");
+}
 // ****************************** Task 6 ******************************
 
 
