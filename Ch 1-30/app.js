@@ -263,8 +263,18 @@
 
 // ****************************** Task 11 ******************************
 
+// var currentYear = 2020;
+// var birthYear = 1999;
+// var age1 = currentYear-birthYear-1;
+// var age2 = currentYear-birthYear;
+
+// document.write("<h1>Age Calculator</h1>");
+// document.write("Current year = " + currentYear + "<br>");
+// document.write("Birth year = " + birthYear + "<br>");
+// document.write("Your are  either " + age1 + " or " + age2 + " years old <br>");
 
 // ****************************** Task 12 ******************************
+
 
 // ****************************** Task 13 ******************************
 
