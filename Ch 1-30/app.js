@@ -191,12 +191,49 @@
 
 // ****************************** Task 4 ******************************
 
+// var ticketCost = 600;
+// var numberOfTickets = 5;
+// var totalCost = ticketCost * numberOfTickets;
+
+// document.write("Total cost to buy " + numberOfTickets + 
+// " tickets to a movie is " + totalCost + " PKR.");
 
 // ****************************** Task 5 ******************************
 
+// var num = 8;
+// for(var i = 1; i <= 10; i++)
+// {
+//     document.write(num + " x " + i + " = " + num*i + "<br>");
+// }
+
 // ****************************** Task 6 ******************************
 
+// var celsius_1 = 39;
+// var fahrenheit_1 = ((celsius_1 * 1.8) +32).toFixed(2);
+// document.write(celsius_1 + "°C is " + fahrenheit_1 + "°F. <br>");
+
+// var fahrenheit_2 = 100;
+// var celsius_2 = ((fahrenheit_2 - 32) * 5/9).toFixed(2);
+// document.write(fahrenheit_2 + "°F is " + celsius_2 + "°C. <br>");
+
 // ****************************** Task 7 ******************************
+
+var priceOfItem_1 = 400;
+var priceOfItem_2 = 3;
+var quantityOfItem_1 = 150;
+var quantityOfItem_2 = 7;
+var shippingCharges = 180;
+
+var totalCost = priceOfItem_1*quantityOfItem_1 + priceOfItem_2*quantityOfItem_2 + shippingCharges;
+
+document.write("<h1>Shopping cart</h1>")
+document.write("Price of 1st item is: Rs. "+priceOfItem_1+"<br>");
+document.write("Orderd quantity of 1st item is: "+quantityOfItem_1+"<br>");
+document.write("Price of 2nd item is: Rs. "+priceOfItem_2+"<br>");
+document.write("Orderd quantity of 2nd item is: "+quantityOfItem_2+"<br>");
+document.write("Shipping charges: Rs. "+shippingCharges+"<br>"+"<br>");
+
+document.write("Total cost of your order is: Rs. "+totalCost+"<br>");
 
 // ****************************** Task 8 ******************************
 
