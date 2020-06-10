@@ -551,16 +551,23 @@
 
 // ****************************** Task 8 ******************************
 
-var number = Number(prompt("Enter a number to find whether the number divisible by 3"));
-if(number % 3 === 0){
-    alert(number + " is divisible by 3.");
-}
-else{
-    alert(number + " is not divisible by 3.");
-}
-
+// var number = Number(prompt("Enter a number to find whether the number is divisible by 3"));
+// if(number % 3 === 0){
+//     alert(number + " is divisible by 3.");
+// }
+// else{
+//     alert(number + " is not divisible by 3.");
+// }
 
 // ****************************** Task 9 ******************************
+
+var number = Number(prompt("Enter a number to find whether the number is even or odd."));
+if(number % 2 === 0){
+    alert(number + " is Even.");
+}
+else{
+    alert(number + " is Odd.");
+}
 
 // ****************************** Task 10 ******************************
 
