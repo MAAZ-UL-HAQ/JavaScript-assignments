@@ -423,9 +423,30 @@
 // }
 // else{
 //     document.write("<h1>Invalid color</h1>");
-}
+// }
 
 // ****************************** Task 4 ******************************
+
+// var fuel = prompt("Enter the fuel in your car in liters");
+// var str = "";
+// var decimalCount=0;
+// for(var i=0; i<fuel.length; i++){
+//     if(fuel[i]>="0"&&fuel[i]<="9"){
+//         str=str+fuel[i];
+//     }
+//     else if(fuel[i]==="."){
+//         if(decimalCount===0){
+//             str=str+fuel[i];
+//         }
+//     }
+// }
+// fuel=Number(str);
+// if(fuel<=0.25){
+//     alert("Please refill the fuel in your car");
+// }
+// else{
+//     alert("fuel is Ok!")
+// }
 
 // ****************************** Task 5 ******************************
 
