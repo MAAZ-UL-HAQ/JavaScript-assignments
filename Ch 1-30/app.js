@@ -561,19 +561,56 @@
 
 // ****************************** Task 9 ******************************
 
-var number = Number(prompt("Enter a number to find whether the number is even or odd."));
-if(number % 2 === 0){
-    alert(number + " is Even.");
-}
-else{
-    alert(number + " is Odd.");
-}
+// var number = Number(prompt("Enter a number to find whether the number is even or odd."));
+// if(number % 2 === 0){
+//     alert(number + " is Even.");
+// }
+// else{
+//     alert(number + " is Odd.");
+// }
 
 // ****************************** Task 10 ******************************
 
+// var temp = Number(prompt("Enter temperature in degree Centigrade"));
+// if(temp>40){
+//     alert("It is too hot outside.");
+// }
+// else if(temp>30){
+//     alert("The Weather today is Normal.");
+// }
+// else if(temp>20){
+//     alert("Today’s Weather is cool.");
+// }
+// else if(temp>10){
+//     alert("OMG! Today’s weather is so Cool.");
+// }
+// else {
+//     alert("Temperature is less than 10 degrees");
+// }
+
 // ****************************** Task 11 ******************************
 
-
+var val1=Number(prompt("Enter 1st operand"));
+var val2=Number(prompt("Enter 2nd operand"));
+var sign=prompt("Enter operation (+,-,*,/,%)");
+if(sign === "+"){
+    alert(val1 + " + " + val2 + " = " + (val1+val2));
+}
+else if(sign === "-"){
+    alert(val1 + " - " + val2 + " = " + val1-val2);
+}
+else if(sign === "*"){
+    alert(val1 + " x " + val2 + " = " + val1*val2);
+}
+else if(sign === "/"){
+    alert(val1 + " / " + val2 + " = " + val1/val2);
+}
+else if(sign === "%"){
+    alert(val1 + " % " + val2 + " = " + val1%val2);
+}
+else{
+    alert("Invalid operator")
+}
 
 
 // ***************************** Chapter  **************************** 
