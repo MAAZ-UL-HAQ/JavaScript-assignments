@@ -275,6 +275,14 @@
 
 // ****************************** Task 12 ******************************
 
+var radius = 20;
+const pi = 3.142;
+var circumference = 2*pi*radius;
+var area = pi*radius**2;
+
+document.write("Radius of circle = " + radius + "<br>");
+document.write("Circumference of circle is: " + circumference + "<br>");
+document.write("Area of circle is:" + area + "<br>");
 
 // ****************************** Task 13 ******************************
 
