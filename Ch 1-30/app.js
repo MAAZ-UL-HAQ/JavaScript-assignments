@@ -153,30 +153,44 @@
 
 // ****************************** Task 1 ******************************
 
-var num1 = 17;
-var num2 = 6;
+// var num1 = 17;
+// var num2 = 6;
 
-var sum = num1 + num2;
-document.write("Sum of " + num1 + " and " + num2 + " is " + sum + "<br>");
+// var sum = num1 + num2;
+// document.write("Sum of " + num1 + " and " + num2 + " is " + sum + "<br>");
 
 // ****************************** Task 2 ******************************
 
-var sub = num1 - num2;
-document.write("Difference of " + num1 + " and " + num2 + " is " + sub + "<br>");
+// var sub = num1 - num2;
+// document.write("Difference of " + num1 + " and " + num2 + " is " + sub + "<br>");
 
-var mul = num1 * num2;
-document.write("Product of " + num1 + " and " + num2 + " is " + mul + "<br>");
+// var mul = num1 * num2;
+// document.write("Product of " + num1 + " and " + num2 + " is " + mul + "<br>");
 
-var div = num1 / num2;
-document.write("Division of " + num1 + " and " + num2 + " is " + div + "<br>");
+// var div = num1 / num2;
+// document.write("Division of " + num1 + " and " + num2 + " is " + div + "<br>");
 
-var mod = num1 % num2;
-document.write("Remainder of division of " + num1 + " and " + num2 + " is " + mod + "<br>");
+// var mod = num1 % num2;
+// document.write("Remainder of division of " + num1 + " and " + num2 + " is " + mod + "<br>");
 
 
 // ****************************** Task 3 ******************************
 
+// var x;
+// document.write("Value after variable declaration is: " + x + "<br>");
+// x = 5;
+// document.write("Initial value: " + x + "<br>");
+// x++;
+// document.write("Value after increment is: " + x + "<br>");
+// x = x + 7;
+// document.write("Value after addition is: " + x + "<br>");
+// x--;
+// document.write("Value after decrement is: " + x + "<br>");
+// var rem = x % 3;
+// document.write("The remainder is : " + rem + "<br>");
+
 // ****************************** Task 4 ******************************
+
 
 // ****************************** Task 5 ******************************
 
