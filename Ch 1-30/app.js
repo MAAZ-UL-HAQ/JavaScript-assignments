@@ -218,30 +218,51 @@
 
 // ****************************** Task 7 ******************************
 
-var priceOfItem_1 = 400;
-var priceOfItem_2 = 3;
-var quantityOfItem_1 = 150;
-var quantityOfItem_2 = 7;
-var shippingCharges = 180;
+// var priceOfItem_1 = 400;
+// var priceOfItem_2 = 3;
+// var quantityOfItem_1 = 150;
+// var quantityOfItem_2 = 7;
+// var shippingCharges = 180;
 
-var totalCost = priceOfItem_1*quantityOfItem_1 + priceOfItem_2*quantityOfItem_2 + shippingCharges;
+// var totalCost = priceOfItem_1*quantityOfItem_1 + priceOfItem_2*quantityOfItem_2 + shippingCharges;
 
-document.write("<h1>Shopping cart</h1>")
-document.write("Price of 1st item is: Rs. "+priceOfItem_1+"<br>");
-document.write("Orderd quantity of 1st item is: "+quantityOfItem_1+"<br>");
-document.write("Price of 2nd item is: Rs. "+priceOfItem_2+"<br>");
-document.write("Orderd quantity of 2nd item is: "+quantityOfItem_2+"<br>");
-document.write("Shipping charges: Rs. "+shippingCharges+"<br>"+"<br>");
+// document.write("<h1>Shopping cart</h1>")
+// document.write("Price of 1st item is: Rs. "+priceOfItem_1+"<br>");
+// document.write("Orderd quantity of 1st item is: "+quantityOfItem_1+"<br>");
+// document.write("Price of 2nd item is: Rs. "+priceOfItem_2+"<br>");
+// document.write("Orderd quantity of 2nd item is: "+quantityOfItem_2+"<br>");
+// document.write("Shipping charges: Rs. "+shippingCharges+"<br>"+"<br>");
 
-document.write("Total cost of your order is: Rs. "+totalCost+"<br>");
+// document.write("Total cost of your order is: Rs. "+totalCost+"<br>");
 
 // ****************************** Task 8 ******************************
 
+// var totalMarks = 800;
+// var obtainedMarks = 650;
+// var percentage = ((obtainedMarks/totalMarks)*100).toFixed(2)
+
+// document.write("<h1>Mark sheet</h1>");
+// document.write("Total Marks = "+totalMarks+"<br>");
+// document.write("Marks Obtained = "+obtainedMarks+"<br>");
+// document.write("Percentage = "+percentage+"%<br>");
+
 // ****************************** Task 9 ******************************
+
+// var saudiRiyal = 25;
+// var usDollars = 10;
+// var totalAmountInRupees = ((saudiRiyal*28) + (usDollars*104.8)).toFixed(3);
+
+// document.write("<h1>Currency in PKR</h1>");
+// document.write("Total currency in PKR: "+totalAmountInRupees);
 
 // ****************************** Task 10 ******************************
 
+// var t = 11;
+// var u = ((t + 5) * 10) / 2;
+// alert(u);
+
 // ****************************** Task 11 ******************************
+
 
 // ****************************** Task 12 ******************************
 
