@@ -116,3 +116,35 @@
 
 
 
+// ***************************** Chapter 4 **************************** 
+
+// ****************************** Task 1 ******************************
+
+// var name, age, qualification;
+
+// ****************************** Task 2 ******************************
+
+// legal variable names
+// var x;
+// var _a1;
+// var _12;
+// var $_price; 
+// var uvw_3;
+
+// illegal variable names
+// var a&b;
+// var full name;
+// var full.name;
+// var roll#;
+// var 1st_element;
+// var new;
+
+// ****************************** Task 3 ******************************
+
+// document.write("<h1>Rules for naming JS variables</h1>");
+// document.write("<p> Variable names can only contain aphabets, numbers, dollar($) and underscore(_) For example $my_1stVariable </p>");
+// document.write("<p> Variables must begin with an alphabet, $ or _. For example $name, _name or name </p> ");
+// document.write("<p> Variable names are case sensitive </p>");
+// document.write("<p> Variable names should not be JS Keyword </p>");
+
+
