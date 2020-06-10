@@ -301,9 +301,29 @@
 
 
 
-// ***************************** Chapter  **************************** 
+// ***************************** Chapter 6-9  **************************** 
 
 // ****************************** Task 1 ******************************
+
+// var a = 6;
+// document.write("Result: "+"<br>");
+// document.write("The value of a is "+ a +"<br>");
+// document.write("..................................."+"<br>");
+// document.write("<br>");
+// document.write("The value of ++a is "+ ++a +"<br>");
+// document.write("The value of a is "+ a +"<br>");
+
+// document.write("<br>");
+// document.write("The value of a++ is "+ a++ +"<br>");
+// document.write("The value of a is "+ a +"<br>");
+
+// document.write("<br>");
+// document.write("The value of --a is "+ --a +"<br>");
+// document.write("The value of a is "+ a +"<br>");
+
+// document.write("<br>");
+// document.write("The value of a-- is "+ a-- +"<br>");
+// document.write("The value of a is "+ a +"<br>");
 
 // ****************************** Task 2 ******************************
 
@@ -315,9 +335,6 @@
 
 // ****************************** Task 6 ******************************
 
-// ****************************** Task 7 ******************************
-
-// ****************************** Task 8 ******************************
 
 
 
