@@ -273,21 +273,51 @@
 // document.write("Birth year = " + birthYear + "<br>");
 // document.write("Your are  either " + age1 + " or " + age2 + " years old <br>");
 
-// ****************************** Task 12 ******************************
+// // ****************************** Task 12 ******************************
 
-var radius = 20;
-const pi = 3.142;
-var circumference = 2*pi*radius;
-var area = pi*radius**2;
+// var radius = 20;
+// const pi = 3.142;
+// var circumference = 2*pi*radius;
+// var area = pi*radius**2;
 
-document.write("Radius of circle = " + radius + "<br>");
-document.write("Circumference of circle is: " + circumference + "<br>");
-document.write("Area of circle is:" + area + "<br>");
+// document.write("Radius of circle = " + radius + "<br>");
+// document.write("Circumference of circle is: " + circumference + "<br>");
+// document.write("Area of circle is:" + area + "<br>");
 
 // ****************************** Task 13 ******************************
 
-// ****************************** Task 14 ******************************
+// var favoriteSnack = "chips"; 
+// var currentAge = 20; 
+// var maximumAge = 65; 
+// var amountPerDay = 5; 
+// total = (maximumAge - currentAge)*365*amountPerDay;
 
+// document.write("<h1>Lifetime Supply Calculator</h1>");
+// document.write("Favorite snacks : " + favoriteSnack + "<br>");
+// document.write("Current age : " + currentAge + "<br>");
+// document.write("Estimated maximum age : " + maximumAge + "<br>");
+// document.write("Amount of snacks per day : "+ amountPerDay + "<br>");
+// document.write("Your will need "+total+" to last you until the ripe old age of "+maximumAge + "<br>");
+
+
+
+// ***************************** Chapter  **************************** 
+
+// ****************************** Task 1 ******************************
+
+// ****************************** Task 2 ******************************
+
+// ****************************** Task 3 ******************************
+
+// ****************************** Task 4 ******************************
+
+// ****************************** Task 5 ******************************
+
+// ****************************** Task 6 ******************************
+
+// ****************************** Task 7 ******************************
+
+// ****************************** Task 8 ******************************
 
 
 
