@@ -345,23 +345,41 @@
 
 // ****************************** Task 5 ******************************
 
-var number=prompt("Enter any number: ","5");
+// var number=prompt("Enter any number: ","5");
 
-if(number === null || number === ""){
-    number=5;
-}
-else{
-    number=Number(number);
-}
+// if(number === null || number === ""){
+//     number=5;
+// }
+// else{
+//     number=Number(number);
+// }
 
-for(var i=1; i<=10; i++)
-{
-    document.write(number+" x "+i+" = "+number*i+"<br>");
-}
+// for(var i=1; i<=10; i++)
+// {
+//     document.write(number+" x "+i+" = "+number*i+"<br>");
+// }
+
 // ****************************** Task 6 ******************************
 
+var subject1,subject2,subject3;
+subject1=prompt("Enter your 1st subject name","Comuter science");
+subject2=prompt("Enter your 2nd subject name","Comuter science");
+subject3=prompt("Enter your 3rd subject name","Comuter science");
 
+var totalMarksPerSub = 100, grandTotal = 300 ;
+var obtainedMarks1, obtainedMarks2, obtainedMarks3;
+obtainedMarks1 = Number(prompt("Enter obtained marks of "+subject1+" out of hundred","74"));
+obtainedMarks2 = Number(prompt("Enter obtained marks of "+subject2+" out of hundred","74"));
+obtainedMarks3 = Number(prompt("Enter obtained marks of "+subject3+" out of hundred","74"));
 
+var percentage1 = (obtainedMarks1/totalMarksPerSub*100).toFixed(2)
+var percentage2 = (obtainedMarks2/totalMarksPerSub*100).toFixed(2)
+var percentage3 = (obtainedMarks3/totalMarksPerSub*100).toFixed(2)
+
+var obtainedTotal = obtainedMarks1+obtainedMarks2+obtainedMarks3;
+var percentage = (obtainedTotal/grandTotal*100).toFixed(2);
+
+document.write(" <table><tr> <th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th> </tr> <tr> <td>"+subject1+"</td><td>100</td><td>"+obtainedMarks1+"</td><td>"+percentage1+"%</td> </tr> <tr> <td>"+subject2+"</td><td>100</td><td>"+obtainedMarks2+"</td><td>"+percentage2+"%</td> </tr> <tr> <td>"+subject3+"</td><td>100</td><td>"+obtainedMarks3+"</td><td>"+percentage3+"%</td> </tr> <tr> <th> </th><th>300</th><th>"+obtainedTotal+"</th><th>"+percentage+"%</th> </tr></table>");
 
 // ***************************** Chapter  **************************** 
 
