@@ -498,44 +498,56 @@
 // }
 
 // ****************************** Task 6 ******************************
-var totalMarksPerSub = Number(prompt("Enter total marks of a test"));
-var subject1=Number(prompt("Enter obtained marks of 1st subject"));
-var subject2=Number(prompt("Enter obtained marks of 2nd subject"));
-var subject3=Number(prompt("Enter obtained marks of 3rd subject"));
-var grandTotal=totalMarksPerSub*3;
-var obtainedTotal=subject1+subject2+subject3;
-var percentage =(obtainedTotal/grandTotal*100).toFixed(2);
-var grade = "";
-var remarks = "";
+// var totalMarksPerSub = Number(prompt("Enter total marks of a test"));
+// var subject1=Number(prompt("Enter obtained marks of 1st subject"));
+// var subject2=Number(prompt("Enter obtained marks of 2nd subject"));
+// var subject3=Number(prompt("Enter obtained marks of 3rd subject"));
+// var grandTotal=totalMarksPerSub*3;
+// var obtainedTotal=subject1+subject2+subject3;
+// var percentage =(obtainedTotal/grandTotal*100).toFixed(2);
+// var grade = "";
+// var remarks = "";
 
-if(percentage>=80 && percentage<=100){
-    grade="A-one";
-    remarks="Excellent";
-}
-else if(percentage>=70 && percentage<80){
-    grade="A";
-    remarks="Good";
-}
-else if(percentage>=60 && percentage<70){
-    grade="B";
-    remarks="Need to improve";
-}
-else if(percentage>=50 && percentage<60){
-    grade="Fail";
-    remarks="Sorry";
-}
-else{
-    remarks="Sorry! You provide incorrect information";
-}
+// if(percentage>=80 && percentage<=100){
+//     grade="A-one";
+//     remarks="Excellent";
+// }
+// else if(percentage>=70 && percentage<80){
+//     grade="A";
+//     remarks="Good";
+// }
+// else if(percentage>=60 && percentage<70){
+//     grade="B";
+//     remarks="Need to improve";
+// }
+// else if(percentage>=50 && percentage<60){
+//     grade="Fail";
+//     remarks="Sorry";
+// }
+// else{
+//     remarks="Sorry! You provide incorrect information";
+// }
 
-document.write("<h1>Marks Sheet</h1>"+"<br>");
-document.write("<h3>Total Marks    : " + grandTotal + "<h3>");
-document.write("<h3>Obtained Marks : " + obtainedTotal + "<h3>");
-document.write("<h3>Percentage     : " + percentage + "% <h3>");
-document.write("<h3>Grade          : " + grade + "<h3>");
-document.write("<h3>Remarks        : " + remarks + "<h3>");
+// document.write("<h1>Marks Sheet</h1>"+"<br>");
+// document.write("<h3>Total Marks    : " + grandTotal + "<h3>");
+// document.write("<h3>Obtained Marks : " + obtainedTotal + "<h3>");
+// document.write("<h3>Percentage     : " + percentage + "% <h3>");
+// document.write("<h3>Grade          : " + grade + "<h3>");
+// document.write("<h3>Remarks        : " + remarks + "<h3>");
 
 // ****************************** Task 7 ******************************
+
+var secretNumber = Math.floor(Math.random()*11);
+var gussedNumber = Number(prompt("Guess a secret number from 1 to 10"));
+if(gussedNumber===secretNumber){
+    alert("Bingo! Correct answer");
+}
+else if(gussedNumber+1===secretNumber){
+    alert("Close enough to the correct answer.\nSecret number was : "+secretNumber)
+}
+else{
+    alert("Sorry! incorrect guess.\nSecret number was : "+secretNumber +"\nGood luck next time :)")
+}
 
 // ****************************** Task 8 ******************************
 
