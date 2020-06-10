@@ -537,19 +537,28 @@
 
 // ****************************** Task 7 ******************************
 
-var secretNumber = Math.floor(Math.random()*11);
-var gussedNumber = Number(prompt("Guess a secret number from 1 to 10"));
-if(gussedNumber===secretNumber){
-    alert("Bingo! Correct answer");
-}
-else if(gussedNumber+1===secretNumber){
-    alert("Close enough to the correct answer.\nSecret number was : "+secretNumber)
-}
-else{
-    alert("Sorry! incorrect guess.\nSecret number was : "+secretNumber +"\nGood luck next time :)")
-}
+// var secretNumber = Math.floor(Math.random()*11);
+// var gussedNumber = Number(prompt("Guess a secret number from 1 to 10"));
+// if(gussedNumber===secretNumber){
+//     alert("Bingo! Correct answer");
+// }
+// else if(gussedNumber+1===secretNumber){
+//     alert("Close enough to the correct answer.\nSecret number was : "+secretNumber)
+// }
+// else{
+//     alert("Sorry! incorrect guess.\nSecret number was : "+secretNumber +"\nGood luck next time :)")
+// }
 
 // ****************************** Task 8 ******************************
+
+var number = Number(prompt("Enter a number to find whether the number divisible by 3"));
+if(number % 3 === 0){
+    alert(number + " is divisible by 3.");
+}
+else{
+    alert(number + " is not divisible by 3.");
+}
+
 
 // ****************************** Task 9 ******************************
 
