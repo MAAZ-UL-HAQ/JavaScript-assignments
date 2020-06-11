@@ -590,27 +590,79 @@
 
 // ****************************** Task 11 ******************************
 
-var val1=Number(prompt("Enter 1st operand"));
-var val2=Number(prompt("Enter 2nd operand"));
-var sign=prompt("Enter operation (+,-,*,/,%)");
-if(sign === "+"){
-    alert(val1 + " + " + val2 + " = " + (val1+val2));
-}
-else if(sign === "-"){
-    alert(val1 + " - " + val2 + " = " + val1-val2);
-}
-else if(sign === "*"){
-    alert(val1 + " x " + val2 + " = " + val1*val2);
-}
-else if(sign === "/"){
-    alert(val1 + " / " + val2 + " = " + val1/val2);
-}
-else if(sign === "%"){
-    alert(val1 + " % " + val2 + " = " + val1%val2);
-}
-else{
-    alert("Invalid operator")
-}
+// var val1=Number(prompt("Enter 1st operand"));
+// var val2=Number(prompt("Enter 2nd operand"));
+// var sign=prompt("Enter operation (+,-,*,/,%)");
+// if(sign === "+"){
+//     alert(val1 + " + " + val2 + " = " + (val1+val2));
+// }
+// else if(sign === "-"){
+//     alert(val1 + " - " + val2 + " = " + val1-val2);
+// }
+// else if(sign === "*"){
+//     alert(val1 + " x " + val2 + " = " + val1*val2);
+// }
+// else if(sign === "/"){
+//     alert(val1 + " / " + val2 + " = " + val1/val2);
+// }
+// else if(sign === "%"){
+//     alert(val1 + " % " + val2 + " = " + val1%val2);
+// }
+// else{
+//     alert("Invalid operator")
+// }
+
+
+// ***************************** Chapter 12-13  **************************** 
+
+// ****************************** Task 1 ******************************
+
+// var x = prompt("Hello! Enter some thing in the box below");
+// var numCount=0,upperCharCount=0,lowerCharCount=0;
+// for(var i=0; i<x.length; i++){
+//     if(x[i] >= 0 || x[i] <= 9 ){
+//         numCount++;
+//     }
+//     else if(x[i] >= 'A' || x[i] <= 'Z' ){
+//         upperCharCount++;
+//     }
+//     else if(x[i] >= 'a' || x[i] <= 'z' ){
+//         lowerCharCount++;
+//     }
+//     else{
+//         //special char
+//     }
+// }
+
+// if(numCount != 0 && upperCharCount == 0 && lowerCharCount == 0){
+//     alert("Input contains Number");
+// }
+// else if(numCount == 0 && upperCharCount != 0 && lowerCharCount == 0){
+//     alert("Input contains uppercase string");
+// }
+// else if(numCount == 0 && upperCharCount == 0 && lowerCharCount != 0){
+//     alert("Input contains lowercase string");
+// }
+// else if(numCount == 0 && upperCharCount == 0 && lowerCharCount == 0){
+//     alert("Not a number or string");
+// }
+// else{
+//     alert("Input contains alphanumeric string");
+// }
+
+// ****************************** Task 2 ******************************
+
+// ****************************** Task 3 ******************************
+
+// ****************************** Task 4 ******************************
+
+// ****************************** Task 5 ******************************
+
+// ****************************** Task 6 ******************************
+
+// ****************************** Task 7 ******************************
+
+// ****************************** Task 8 ******************************
 
 
 // ***************************** Chapter  **************************** 
