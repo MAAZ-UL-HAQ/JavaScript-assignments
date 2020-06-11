@@ -668,10 +668,48 @@
 // }
 // ****************************** Task 3 ******************************
 
+// var i=+prompt("Enter an integer value");
+
+// if(i>0){
+//     alert("Entered number is positive integer");
+// }
+// else if(i<0){
+//     alert("Entered number is negative integer");
+// }
+// else if(i==0){
+//     alert("Entered number is zero");
+// }
+// else{
+//     alert("Invalid input");
+// }
+
 // ****************************** Task 4 ******************************
 
+// var ch = prompt("Enter a single character").toLowerCase();
+// if(ch==="a" || ch==="e" || ch==="i" || ch==="o" || ch==="u"){
+//     alert("True");
+// }
+// else{
+//     alert("False");
+// }
 // ****************************** Task 5 ******************************
 
+var correctPassword = "maaz ul haq"
+var enteredPassword = prompt("Enter your password");
+for(;;){
+    if(enteredPassword===null || enteredPassword===""){
+        var enteredPassword = prompt("You did not enter password.\n Enter your password");
+    }
+    else{
+        break
+    }
+}
+if(enteredPassword===correctPassword){
+    alert("Correct! The password you entered matches the original password.");
+}
+else{
+    alert("Incorrect password.");
+}
 // ****************************** Task 6 ******************************
 
 // ****************************** Task 7 ******************************
