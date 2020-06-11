@@ -651,7 +651,21 @@
 // }
 
 // ****************************** Task 2 ******************************
+// var i1=+prompt("Enter an 1st integer value");
+// var i2=+prompt("Enter an 2nd integer value");
 
+// if(i1>i2){
+//     alert(i1+" is greater than "+i2);
+// }
+// else if(i1<i2){
+//     alert(i1+" is lesser than "+i2);
+// }
+// else if(i1===i2){
+//     alert("Both are equal");
+// }
+// else{
+//     alert("Invalid input");
+// }
 // ****************************** Task 3 ******************************
 
 // ****************************** Task 4 ******************************
