@@ -823,7 +823,16 @@
 
 // ****************************** Task 10 ******************************
 
+// var studentsScores=[290,300,280,321,319,211];
+// document.write("Scores of students = "+studentsScores+"<br>");
+// document.write("Orderd scores of students = "+studentsScores.sort());
+
 // ****************************** Task 11 ******************************
+
+// cities=["Karachi","Islamabad","Peshawar","Quetta","Lahore"];
+// selectedCities=cities.slice(2,4);
+// document.write("Cities list"+"<br>"+cities+"<br>");
+// document.write("Selected cities list"+"<br>"+selectedCities+"<br>");
 
 // ****************************** Task 12 ******************************
 
