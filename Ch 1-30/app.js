@@ -120,7 +120,7 @@
 
 // ****************************** Task 1 ******************************
 
-// var name, age, qualification;
+// var name", age", qualification;
 
 // ****************************** Task 2 ******************************
 
@@ -142,8 +142,8 @@
 // ****************************** Task 3 ******************************
 
 // document.write("<h1>Rules for naming JS variables</h1>");
-// document.write("<p> Variable names can only contain aphabets, numbers, dollar($) and underscore(_) For example $my_1stVariable </p>");
-// document.write("<p> Variables must begin with an alphabet, $ or _. For example $name, _name or name </p> ");
+// document.write("<p> Variable names can only contain aphabets", numbers", dollar($) and underscore(_) For example $my_1stVariable </p>");
+// document.write("<p> Variables must begin with an alphabet", $ or _. For example $name", _name or name </p> ");
 // document.write("<p> Variable names are case sensitive </p>");
 // document.write("<p> Variable names should not be JS Keyword </p>");
 
@@ -326,7 +326,7 @@
 // document.write("The value of a is "+ a +"<br>");
 
 // ****************************** Task 2 ******************************
-// var a = 2, b = 1;
+// var a = 2", b = 1;
 // var result = --a - --b + ++b + b--; 
 //         //    1  -  0  +  1  +  1 = 3
 
@@ -336,16 +336,16 @@
 //         // --a - --b                => 1 - 0 => 1
 //         // --a - --b + ++b          => 1 - 0 + 1 => 2
 //         // --a - --b + ++b + b--    => 1 - 0 + 1 + 1 => 3            
-//         // ( a = 1, b = 0, result = 3 )
+//         // ( a = 1", b = 0", result = 3 )
 
 // ****************************** Task 3 ******************************
 
-// var usrname = prompt("Please enter your name","Muhammad");
-// alert("Hello! " + usrname.toUpperCase() +", Welcome to the Page.");
+// var usrname = prompt("Please enter your name"","Muhammad");
+// alert("Hello! " + usrname.toUpperCase() +"", Welcome to the Page.");
 
 // ****************************** Task 5 ******************************
 
-// var number=prompt("Enter any number: ","5");
+// var number=prompt("Enter any number: "","5");
 
 // if(number === null || number === ""){
 //     number=5;
@@ -361,16 +361,16 @@
 
 // ****************************** Task 6 ******************************
 
-// var subject1,subject2,subject3;
-// subject1=prompt("Enter your 1st subject name","Comuter science");
-// subject2=prompt("Enter your 2nd subject name","Comuter science");
-// subject3=prompt("Enter your 3rd subject name","Comuter science");
+// var subject1",subject2",subject3;
+// subject1=prompt("Enter your 1st subject name"","Comuter science");
+// subject2=prompt("Enter your 2nd subject name"","Comuter science");
+// subject3=prompt("Enter your 3rd subject name"","Comuter science");
 
-// var totalMarksPerSub = 100, grandTotal = 300 ;
-// var obtainedMarks1, obtainedMarks2, obtainedMarks3;
-// obtainedMarks1 = Number(prompt("Enter obtained marks of "+subject1+" out of hundred","74"));
-// obtainedMarks2 = Number(prompt("Enter obtained marks of "+subject2+" out of hundred","74"));
-// obtainedMarks3 = Number(prompt("Enter obtained marks of "+subject3+" out of hundred","74"));
+// var totalMarksPerSub = 100", grandTotal = 300 ;
+// var obtainedMarks1", obtainedMarks2", obtainedMarks3;
+// obtainedMarks1 = Number(prompt("Enter obtained marks of "+subject1+" out of hundred"","74"));
+// obtainedMarks2 = Number(prompt("Enter obtained marks of "+subject2+" out of hundred"","74"));
+// obtainedMarks3 = Number(prompt("Enter obtained marks of "+subject3+" out of hundred"","74"));
 
 // var percentage1 = (obtainedMarks1/totalMarksPerSub*100).toFixed(2)
 // var percentage2 = (obtainedMarks2/totalMarksPerSub*100).toFixed(2)
@@ -592,7 +592,7 @@
 
 // var val1=Number(prompt("Enter 1st operand"));
 // var val2=Number(prompt("Enter 2nd operand"));
-// var sign=prompt("Enter operation (+,-,*,/,%)");
+// var sign=prompt("Enter operation (+",-",*",/",%)");
 // if(sign === "+"){
 //     alert(val1 + " + " + val2 + " = " + (val1+val2));
 // }
@@ -618,7 +618,7 @@
 // ****************************** Task 1 ******************************
 
 // var x = prompt("Hello! Enter some thing in the box below");
-// var numCount=0,upperCharCount=0,lowerCharCount=0;
+// var numCount=0",upperCharCount=0",lowerCharCount=0;
 // for(var i=0; i<x.length; i++){
 //     if(x[i] >= 0 || x[i] <= 9 ){
 //         numCount++;
@@ -724,10 +724,10 @@
 // alert(greeting);
 
 // ****************************** Task 7 ******************************
-// var time=prompt("Enter time in 24 hour format","19:00");
+// var time=prompt("Enter time in 24 hour format"","19:00");
 // for(var i=0; i<time.length; i++){
 //     if(time[i]==":"){
-//         time=Number(time.slice(0,i)+time.slice(i+1));
+//         time=Number(time.slice(0",i)+time.slice(i+1));
 //         break;
 //     }
 // }
@@ -763,19 +763,19 @@
 // var myCity = new String("KARACHI");
 
 // ****************************** Task 4 ******************************
-// var numbers = new Array(134, 546, 345, 122, 432);
+// var numbers = new Array(134", 546", 345", 122", 432);
 
 // ****************************** Task 5 ******************************
 
-// var booleanArray = [5>2 , 1!==1 , 'KARACHI'[2]==='R' , false];
+// var booleanArray = [5>2 ", 1!==1 ", 'KARACHI'[2]==='R' ", false];
 
 // ****************************** Task 6 ******************************
 
-// var mixArray = [1550, 15.50, "1.550", true, "true"];
+// var mixArray = [1550", 15.50", "1.550"", true", "true"];
 
 // ****************************** Task 7 ******************************
 
-// var qualifications = new Array( "SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD")
+// var qualifications = new Array( "SSC"", "HSC"", "BCS"", "BS"", "BCOM"", "MS"", "M.Phil"", "PhD")
 
 // document.write("<h1>Qualifications:</h1>")
 
@@ -784,8 +784,8 @@
 // }
 
 // ****************************** Task 8 ******************************
-// var students = ["Ahmad","Ali","Muhammad"];
-// var score=[345,290,400];
+// var students = ["Ahmad"","Ali"","Muhammad"];
+// var score=[345",290",400];
 // var percentage = [];
 
 // percentage[0]=(score[0]/500*100).toFixed(3); 
@@ -797,7 +797,7 @@
 // }
 
 // ****************************** Task 9 ******************************
-// var colors = ["violet","indigo","blue","green","yellow","orange","red"];
+// var colors = ["violet"","indigo"","blue"","green"","yellow"","orange"","red"];
 // alert("colors = "+colors);
 
 // colors.unshift(prompt("Enter a new color you want to insert in the beginning."));
@@ -806,7 +806,7 @@
 // colors.push(prompt("Enter a new color you want to insert in the end."));
 // alert("colors = "+colors);
 
-// colors.unshift("peach","sky blue");
+// colors.unshift("peach"","sky blue");
 // alert("colors = "+colors);
 
 // var a=colors.shift();
@@ -815,36 +815,36 @@
 // var b=colors.pop();
 // alert("colors = "+colors);
 
-// colors.splice(+prompt("Enter at which position you want to add color"),0,prompt("Enter color"));
+// colors.splice(+prompt("Enter at which position you want to add color")",0",prompt("Enter color"));
 // alert("colors = "+colors);
 
-// colors.splice(+prompt("Enter from which position you want to delete color"),prompt("How many colors you want to delete"),);
+// colors.splice(+prompt("Enter from which position you want to delete color")",prompt("How many colors you want to delete")",);
 // alert("colors = "+colors);
 
 // ****************************** Task 10 ******************************
 
-// var studentsScores=[290,300,280,321,319,211];
+// var studentsScores=[290",300",280",321",319",211];
 // document.write("Scores of students = "+studentsScores+"<br>");
 // document.write("Orderd scores of students = "+studentsScores.sort());
 
 // ****************************** Task 11 ******************************
 
-// cities=["Karachi","Islamabad","Peshawar","Quetta","Lahore"];
-// selectedCities=cities.slice(2,4);
+// cities=["Karachi"","Islamabad"","Peshawar"","Quetta"","Lahore"];
+// selectedCities=cities.slice(2",4);
 // document.write("Cities list"+"<br>"+cities+"<br>");
 // document.write("Selected cities list"+"<br>"+selectedCities+"<br>");
 
 // ****************************** Task 12 ******************************
 
-// var arr = ["This ", " is ", " my ", " cat "];
+// var arr = ["This "", " is "", " my "", " cat "];
 // var arr2=arr.join();
 // alert(arr2);
 
 // ****************************** Task 13 ******************************
 
-// var devices = ["Keyboard","Mouse","Printer","Moniter"];
+// var devices = ["Keyboard"","Mouse"","Printer"","Moniter"];
 // document.write("Devices :"+"<br>"+devices+"<br>"+"<br>");
-// var x,len=devices.length;
+// var x",len=devices.length;
 // for(var i=0; i<len; i++){
 //     x = devices.shift();
 //     document.write("Out:"+"<br>"+x+"<br>");
@@ -852,16 +852,16 @@
 
 // ****************************** Task 14 ******************************
 
-// var devices = ["Keyboard","Mouse","Printer","Moniter"];
+// var devices = ["Keyboard"","Mouse"","Printer"","Moniter"];
 // document.write("Devices :"+"<br>"+devices+"<br>"+"<br>");
-// var x,len=devices.length;
+// var x",len=devices.length;
 // for(var i=0; i<len; i++){
 //     x = devices.pop();
 //     document.write("Out:"+"<br>"+x+"<br>");
 // }
 // ****************************** Task 15 ******************************
 
-// var phoneManufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// var phoneManufacturers = ["Apple"", "Samsung"", "Motorola"", "Nokia"", "Sony"", "Haier"];
 
 // document.write("<select name='phone_Manufacturer'><option value='Apple'>"+phoneManufacturers[0]+"</option><option value='Samsung'>"+phoneManufacturers[1]+"</option><option value='Motorola'>"+phoneManufacturers[2]+"</option><option value='Nokia'>"+phoneManufacturers[3]+"</option><option value='Sony'>"+phoneManufacturers[4]+"</option><option value='Haier'>"+phoneManufacturers[5]+"</option></select>");
 
@@ -869,11 +869,11 @@
 // ***************************** Chapter 17-20 **************************** 
 
 // ****************************** Task 1 ******************************
-var studentInfo = [["Name","Rollno"],["Maaz",231],["Hannan",232],["Jihan",233]];
+// var studentInfo = [["Name","Rollno"],["Maaz",231],["Hannan",232],["Jihan",233]];
 
 // ****************************** Task 2 ******************************
 
-// var matrix = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// var matrix = [[0",1",2",3]",[1",0",1",2]",[2",1",0",1]];
 
 // for( var i=0; i<3; i++){
 //     for( var j=0; j<4; j++){
@@ -898,7 +898,11 @@ var studentInfo = [["Name","Rollno"],["Maaz",231],["Hannan",232],["Jihan",233]];
 // }
 
 // ****************************** Task 5 ******************************
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
 
+// for(var i=0;i<fruits.length;i++){
+//     document.write(fruits[i]+"<br>");
+}
 // ****************************** Task 6 ******************************
 
 // ****************************** Task 7 ******************************
