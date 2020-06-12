@@ -694,44 +694,130 @@
 // }
 // ****************************** Task 5 ******************************
 
-var correctPassword = "maaz ul haq"
-var enteredPassword = prompt("Enter your password");
-for(;;){
-    if(enteredPassword===null || enteredPassword===""){
-        var enteredPassword = prompt("You did not enter password.\n Enter your password");
-    }
-    else{
-        break
-    }
-}
-if(enteredPassword===correctPassword){
-    alert("Correct! The password you entered matches the original password.");
-}
-else{
-    alert("Incorrect password.");
-}
+// var correctPassword = "maaz ul haq"
+// var enteredPassword = prompt("Enter your password");
+// for(;;){
+//     if(enteredPassword===null || enteredPassword===""){
+//         var enteredPassword = prompt("You did not enter password.\n Enter your password");
+//     }
+//     else{
+//         break
+//     }
+// }
+// if(enteredPassword===correctPassword){
+//     alert("Correct! The password you entered matches the original password.");
+// }
+// else{
+//     alert("Incorrect password.");
+// }
+
 // ****************************** Task 6 ******************************
+
+// var greeting;
+// var hour = 13; 
+// if (hour < 18) { 
+//     greeting = "Good day";  
+// }
+// else{
+//     greeting = "Good evening";
+// }
+// alert(greeting);
+
+// ****************************** Task 7 ******************************
+// var time=prompt("Enter time in 24 hour format","19:00");
+// for(var i=0; i<time.length; i++){
+//     if(time[i]==":"){
+//         time=Number(time.slice(0,i)+time.slice(i+1));
+//         break;
+//     }
+// }
+
+// if(time>=0000 && time<1200 ){
+//     alert("Good morning");
+// }
+// else if(time>=1200 && time<1700 ){
+//     alert("Good afternoon");
+// }
+// else if(time>=1700 && time<2100 ){
+//     alert("Good evening");
+// }
+// else if(time>=2100 && time<2359 ){
+//     alert("Good night");
+// }
+// else{
+//     alert("Invalid input");
+// }
+
+
+
+
+// ***************************** Chapter 14-16 **************************** 
+
+// ****************************** Task 1 ******************************
+// var students = [];
+
+// ****************************** Task 2 ******************************
+// var students = new Array();
+
+// ****************************** Task 3 ******************************
+// var myCity = new String("KARACHI");
+
+// ****************************** Task 4 ******************************
+// var numbers = new Array(134, 546, 345, 122, 432);
+
+// ****************************** Task 5 ******************************
+
+// var booleanArray = [5>2 , 1!==1 , 'KARACHI'[2]==='R' , false];
+
+// ****************************** Task 6 ******************************
+
+// var mixArray = [1550, 15.50, "1.550", true, "true"];
 
 // ****************************** Task 7 ******************************
 
+var qualifications = new Array( "SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD")
+
+document.write("<h1>Qualifications:</h1>")
+
+for(var i=0; i<qualifications.length; i++){
+    document.write(i+1 + ") " + qualifications[i] + "<br>");
+}
 // ****************************** Task 8 ******************************
+
+// ****************************** Task 9 ******************************
+
+// ****************************** Task 10 ******************************
+
+// ****************************** Task 11 ******************************
+
+// ****************************** Task 12 ******************************
+
+// ****************************** Task 13 ******************************
+
+// ****************************** Task 14 ******************************
+
+// ****************************** Task 15 ******************************
+
+
 
 
 // ***************************** Chapter  **************************** 
 
 // ****************************** Task 1 ******************************
 
-// ****************************** Task 2 ******************************
-
-// ****************************** Task 3 ******************************
-
-// ****************************** Task 4 ******************************
-
-// ****************************** Task 5 ******************************
-
-// ****************************** Task 6 ******************************
-
-// ****************************** Task 7 ******************************
-
 // ****************************** Task 8 ******************************
+
+// ****************************** Task 9 ******************************
+
+// ****************************** Task 10 ******************************
+
+// ****************************** Task 11 ******************************
+
+// ****************************** Task 12 ******************************
+
+// ****************************** Task 13 ******************************
+
+// ****************************** Task 14 ******************************
+
+// ****************************** Task 15 ******************************
 
