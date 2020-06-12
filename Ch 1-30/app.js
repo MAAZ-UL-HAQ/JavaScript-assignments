@@ -866,15 +866,36 @@
 // document.write("<select name='phone_Manufacturer'><option value='Apple'>"+phoneManufacturers[0]+"</option><option value='Samsung'>"+phoneManufacturers[1]+"</option><option value='Motorola'>"+phoneManufacturers[2]+"</option><option value='Nokia'>"+phoneManufacturers[3]+"</option><option value='Sony'>"+phoneManufacturers[4]+"</option><option value='Haier'>"+phoneManufacturers[5]+"</option></select>");
 
 
-// ***************************** Chapter  **************************** 
+// ***************************** Chapter 17-20 **************************** 
 
 // ****************************** Task 1 ******************************
+var studentInfo = [["Name","Rollno"],["Maaz",231],["Hannan",232],["Jihan",233]];
 
 // ****************************** Task 2 ******************************
 
+// var matrix = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+
+// for( var i=0; i<3; i++){
+//     for( var j=0; j<4; j++){
+//         document.write(" "+matrix[i][j]+"  ");
+//     }
+//     document.write("<br>");
+// }
+
 // ****************************** Task 3 ******************************
 
+// for( var j=0; j<10; j++){
+//     document.write(j+1+"<br>");
+// }
+
 // ****************************** Task 4 ******************************
+
+// var m = +prompt("Enter a number to show its multiplication table");
+// var n = +prompt("Enter a length of table");
+
+// for(var i=1; i<=n; i++){
+//     document.write(m + " x " + i + " = " + m*i +"<br>");
+// }
 
 // ****************************** Task 5 ******************************
 
