@@ -836,10 +836,29 @@
 
 // ****************************** Task 12 ******************************
 
+// var arr = ["This ", " is ", " my ", " cat "];
+// var arr2=arr.join();
+// alert(arr2);
+
 // ****************************** Task 13 ******************************
+
+// var devices = ["Keyboard","Mouse","Printer","Moniter"];
+// document.write("Devices :"+"<br>"+devices+"<br>"+"<br>");
+// var x,len=devices.length;
+// for(var i=0; i<len; i++){
+//     x = devices.shift();
+//     document.write("Out:"+"<br>"+x+"<br>");
+// }
 
 // ****************************** Task 14 ******************************
 
+// var devices = ["Keyboard","Mouse","Printer","Moniter"];
+// document.write("Devices :"+"<br>"+devices+"<br>"+"<br>");
+// var x,len=devices.length;
+// for(var i=0; i<len; i++){
+//     x = devices.pop();
+//     document.write("Out:"+"<br>"+x+"<br>");
+// }
 // ****************************** Task 15 ******************************
 
 
