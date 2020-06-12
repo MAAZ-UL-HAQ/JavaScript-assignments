@@ -775,14 +775,26 @@
 
 // ****************************** Task 7 ******************************
 
-var qualifications = new Array( "SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD")
+// var qualifications = new Array( "SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD")
 
-document.write("<h1>Qualifications:</h1>")
+// document.write("<h1>Qualifications:</h1>")
 
-for(var i=0; i<qualifications.length; i++){
-    document.write(i+1 + ") " + qualifications[i] + "<br>");
-}
+// for(var i=0; i<qualifications.length; i++){
+//     document.write(i+1 + ") " + qualifications[i] + "<br>");
+// }
+
 // ****************************** Task 8 ******************************
+// var students = ["Ahmad","Ali","Muhammad"];
+// var score=[345,290,400];
+// var percentage = [];
+
+// percentage[0]=(score[0]/500*100).toFixed(3); 
+// percentage[1]=(score[1]/500*100).toFixed(3); 
+// percentage[2]=(score[1]/500*100).toFixed(3); 
+
+// for(var i=0; i<students.length; i++){
+//     document.write("Score of "+students[i]+" is "+score[i]+". Percentage: "+percentage[i]+"<br>");
+// }
 
 // ****************************** Task 9 ******************************
 
