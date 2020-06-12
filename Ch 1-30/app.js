@@ -898,18 +898,78 @@
 // }
 
 // ****************************** Task 5 ******************************
+
 // var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
 
 // for(var i=0;i<fruits.length;i++){
 //     document.write(fruits[i]+"<br>");
-}
+// }
+
 // ****************************** Task 6 ******************************
+
+// document.write("<h3>Counting</h3>");
+// for(var i=0; i<=15; i++)
+// {
+//     document.write(i+"  ");
+// }
+
+// document.write("<h3>Reverse counting</h3>");
+// for(i=10; i>=1; i--)
+// {
+//     document.write(i+"  ");
+// }
+
+// document.write("<h3>Even</h3>");
+// for(i=0; i<=20; i++)
+// {
+//     if(i%2===0){
+//         document.write(i+"  ");
+//     }
+// }
+
+// document.write("<h3>Odd</h3>");
+// for(i=0; i<=20; i++)
+// {
+//     if(i%2===1){
+//         document.write(i+"  ");
+//     }
+// }
+
+// document.write("<h3>Series</h3>");
+// for(i=1; i<=20; i++)
+// {
+//     if(i%2===0){
+//         document.write(i+"k  ");
+//     }
+// }
 
 // ****************************** Task 7 ******************************
 
+// A = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
+// order = prompt("Welcome to Delicious backery. What do you like to order?");
+
+// i=A.indexOf(order);
+// if(i!=-1){
+//     document.write(order+ "is available at index "+i+" in our bakery.");
+// }
+// else{
+//     document.write("Sorry! we don't have "+order+".");
+// }
+
 // ****************************** Task 8 ******************************
 
+// A = [24, 53, 78, 91, 12];
+// var largest=A[0];
+// for(var i=0; i<A.length; i++){
+//     if(A[i+1]>A[i]){
+//         largest=A[i+1];
+//     }
+// }
+// document.write("Array items: "+A+"<br>");
+// document.write("The Largest number is "+largest);
+
 // ****************************** Task 9 ******************************
+
 
 // ****************************** Task 10 ******************************
 
