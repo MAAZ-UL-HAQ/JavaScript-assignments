@@ -797,6 +797,29 @@
 // }
 
 // ****************************** Task 9 ******************************
+// var colors = ["violet","indigo","blue","green","yellow","orange","red"];
+// alert("colors = "+colors);
+
+// colors.unshift(prompt("Enter a new color you want to insert in the beginning."));
+// alert("colors = "+colors);
+
+// colors.push(prompt("Enter a new color you want to insert in the end."));
+// alert("colors = "+colors);
+
+// colors.unshift("peach","sky blue");
+// alert("colors = "+colors);
+
+// var a=colors.shift();
+// alert("colors = "+colors);
+
+// var b=colors.pop();
+// alert("colors = "+colors);
+
+// colors.splice(+prompt("Enter at which position you want to add color"),0,prompt("Enter color"));
+// alert("colors = "+colors);
+
+// colors.splice(+prompt("Enter from which position you want to delete color"),prompt("How many colors you want to delete"),);
+// alert("colors = "+colors);
 
 // ****************************** Task 10 ******************************
 
