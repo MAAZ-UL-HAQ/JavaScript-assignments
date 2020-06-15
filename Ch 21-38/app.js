@@ -46,11 +46,42 @@
 
 // ****************************** Task 7 ******************************
 
+// var city = "Hyderabad";
+// var newCity = city.replace("Hyder","Islam");
+// document.write("City : "+city+"<br>");
+// document.write("After replacements : "+newCity);
+
 // ****************************** Task 8 ******************************
 
+// var message = "Ali and Sami are best friends. They play cricket and football together."; 
+// document.write("Message before replacements : "+message+"<br>");
+// for(var i=0;i<message.length; i++){
+//     if(message.slice(i,i+3)==="and"){
+//         message=message.slice(0,i)+"&"+message.slice(i+3);
+//     }
+// }
+// document.write("Message after replacements : "+message);
+
+// or
+
+// var message = "Ali and Sami are best friends. They play cricket and football together."; 
+// document.write("Message before replacements : "+message+"<br>");
+// var newMessage = message.replace(/and/,"&");
+// document.write("Message after replacements : "+newMessage);
 
 // ****************************** Task 9 ******************************
+
+// var a = "472";
+// document.write("Value : "+a+"<br>");
+// document.write("Type : "+typeof(a)+"<br>");
+// a = parseInt(a);
+// document.write("Value : "+a+"<br>");
+// document.write("Type : "+typeof(a)+"<br>");
+
 // ****************************** Task 10 ******************************
+
+
+
 // ****************************** Task 11 ******************************
 // ****************************** Task 12 ******************************
 // ****************************** Task 13 ******************************
