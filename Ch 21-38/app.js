@@ -162,9 +162,32 @@
         
 // }
 // ****************************** Task 16 ******************************
+
+// var university = "University of Karachi";
+// var arr = university.split("");
+    
+// for(var i=0;i<arr.length;i++){
+//     document.write(arr[i]+"<br>");
+// }
+
 // ****************************** Task 17 ******************************
+
+// var input = prompt("Enter any string");
+// var lastCharacter = input.charAt(input.length-1);
+// document.write("User input: "+input+"<br>");
+// document.write("Last character: "+lastCharacter+"<br>");
+
 // ****************************** Task 18 ******************************
 
+// var string = "The quick brown fox jumps over the lazy dog";
+// var count=0;
+// for(var i=0;i<string.length;i++){
+//     if(string.toUpperCase().slice(i,i+3)==="THE"){
+//         count++;
+//     }
+// }
+// document.write("Text: "+string+"<br>");
+// document.write("There are "+count+" occurance(s) of string 'the'.<br>");
 
 
 // ***************************** Chapter  **************************** 
