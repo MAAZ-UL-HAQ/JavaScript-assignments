@@ -127,6 +127,40 @@
 // }
 
 // ****************************** Task 15 ******************************
+
+// var password = prompt("Enter a password");
+// var numFlag=false;
+// var aplhaFlag=false;
+
+// for(;;){
+
+//     for(var i=0;i<password.length;i++){
+//         if(password[i+1]>="1"&&password[i+1]<="9"){
+//             numFlag=true
+//         }
+//         if(password[i]>="a"&&password[i]<="z"||password[i]>="A"&&password[i]<="Z"){
+//             aplhaFlag=true
+//         }
+    
+//     }
+
+//     if(password.length<6){
+//         alert("password is too short. enter a valid 6 digit password");
+//         var password = prompt("Enter a password");
+//     }
+//     else if(password[0]>="1"&&password[0]<="9"){
+//         alert("First letter should NOT be a number.");
+//         var password = prompt("Enter a password");
+//     }
+//     else if(numFlag === false || aplhaFlag ==false){
+//         alert("password should contain both numbers & alphabets.");
+//         var password = prompt("Enter a password");    
+//     }
+//     else{
+//         break;
+//     }
+        
+// }
 // ****************************** Task 16 ******************************
 // ****************************** Task 17 ******************************
 // ****************************** Task 18 ******************************
