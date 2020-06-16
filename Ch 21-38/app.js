@@ -80,12 +80,52 @@
 
 // ****************************** Task 10 ******************************
 
-
+// var input = prompt("Enter a string");
+// document.write("User input : "+input+"<br>");
+// var input = input.toUpperCase();
+// document.write("Upper case : "+input+"<br>");
 
 // ****************************** Task 11 ******************************
+
+// var input = prompt("Enter a string");
+// document.write("User input : "+input+"<br>");
+// var input = input[0].toUpperCase() + input.slice(1).toLowerCase();
+// document.write("Title case : "+input+"<br>");
+
 // ****************************** Task 12 ******************************
+
+// var a = 33.36;
+// document.write("Number : "+a+"<br>");
+// a=a.toString();
+// for(var i=0;i<a.length;i++){
+//     if(a[i]=="."){
+//         a=a.slice(0,i)+a.slice(i+1)
+//     }
+// }
+// document.write("String : "+a+"<br>");
+
 // ****************************** Task 13 ******************************
+
+// var usrname=prompt("Enter user name")
+// for(var i=0;i<usrname.length;i++)
+// {
+//     if(usrname[i]==="!"||usrname[i]==="@"||usrname[i]===","||usrname[i]===".")
+//     {
+//         alert("Please enter a valid user name");
+//     }
+// }
 // ****************************** Task 14 ******************************
+
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"] ;
+// var order =prompt("Welcome to ABC bakery! What do yo want to order").toLowerCase();
+// var i = A.indexOf(order);
+// if(i!=-1){
+//     document.write(order+" is avaliable at index "+i+" of bakery.")
+// } 
+// else{
+//     document.write("Sorry! we dont have "+order.toUpperCase());
+// }
+
 // ****************************** Task 15 ******************************
 // ****************************** Task 16 ******************************
 // ****************************** Task 17 ******************************
