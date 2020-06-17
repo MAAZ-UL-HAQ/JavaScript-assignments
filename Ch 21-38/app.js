@@ -237,6 +237,14 @@
 
 // ****************************** Task 7 ******************************
 
+// var weight = prompt("Enter your weight in kilograms");
+// var a="";
+// for(var i=0; i<weight.length; i++){
+//     if(weight[i]>=0 && weight[i]<=9 && weight[i]!=" " || weight[i]==="."){
+//         a=a+weight[i];
+//     }
+// }
+// document.write("The weight of user is "+a+" Kilograms.<br>");
 
 // ****************************** Task 8 ******************************
 // ****************************** Task 9 ******************************
