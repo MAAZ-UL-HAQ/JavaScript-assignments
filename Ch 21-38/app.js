@@ -528,9 +528,34 @@
 
 // ****************************** Task 8 ******************************
 
+// function sq(a){
+//     return(a*a);
+// }
 
+// function sqRoot(a){
+//     return(a ** 0.5);
+// }
+
+// function calculateHypotenuse(base,perp){
+//     var hypo = sqRoot(sq(base)+sq(perp));
+//     return(hypo);
+// } 
+// var hypotenuse = calculateHypotenuse(4,3);
+// alert("Hypotenuse = "+hypotenuse);
 
 // ****************************** Task 9 ******************************
+
+// function area(width,height){
+//     return(width*height);
+// }
+// var area1 = area(6,9);
+// alert("Area = "+area1);
+
+// var a = +prompt("Enter your heigh : ");
+// var b = +prompt("Enter your width : ");
+// var area2 = area(a,b);
+// alert("Area = "+area2);
+
 // ****************************** Task 10 ******************************
 // ****************************** Task 11 ******************************
 // ****************************** Task 12 ******************************
