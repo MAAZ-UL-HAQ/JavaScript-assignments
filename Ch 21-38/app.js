@@ -332,12 +332,67 @@
 // }
 
 // ****************************** Task 8 ******************************
+
+// var laterDate = new Date("Dec 31, 2020");
+// alert(laterDate);
+
 // ****************************** Task 9 ******************************
+
+// var ramadan1st = new Date("Apr 25, 2020");
+// var ramadan1stDays = (ramadan1st.getTime())/(1000*60*60*24);
+// var todayDate = new Date();
+// var todayDays = (todayDate.getTime())/(1000*60*60*24);
+
+// var diff = (todayDays - ramadan1stDays).toFixed(1) ;
+// alert(diff + " day has passed since Ramadan 1st");
+
 // ****************************** Task 10 ******************************
+
+// var beginningOf2015 = new Date("Jan 1, 2015");
+// var beginningOf2015Sec = (beginningOf2015.getTime())/1000;
+// var todayDate = new Date();
+// var todaySec = (todayDate.getTime())/1000;
+
+// var diff = (todaySec - beginningOf2015) ;
+// alert(diff + " seconds");
+
 // ****************************** Task 11 ******************************
+
+// var currentDate = new Date();
+// var currentHours = (currentDate.getTime())/(1000*60*60);
+// var oldDate = new Date("Jun 17, 2020 16:34:22");
+// var oldHours = (oldDate.getTime())/(1000*60*60);
+
+// var diffHours = (currentHours-oldHours).toFixed(1);
+
+// document.write("Current date : "+currentDate+"<br>");
+// document.write(diffHours+" hours ago it was "+oldDate);
+
 // ****************************** Task 12 ******************************
+
+// var currentDate = new Date();
+// var currentYears = (currentDate.getTime())/(1000*60*60*24*365);
+// var oldDate = new Date("Jun 17, 1920");
+// var oldYears = (oldDate.getTime())/(1000*60*60*24*365);
+
+// var diffYears = (currentYears-oldYears).toFixed(1);
+
+// document.write("Current date : "+currentDate+"<br>");
+// document.write(diffYears+" years ago it was "+oldDate);
+
 // ****************************** Task 13 ******************************
+
+// var age = +prompt("Enter your age : ");
+// var currentYear = (new Date()).getFullYear();
+// var birthYear = currentYear - age;
+
+// document.write("Your age is "+age+"<br>");
+// document.write("Your birth year is "+birthYear+"<br>");
+
 // ****************************** Task 14 ******************************
+
+
+
 // ****************************** Task 15 ******************************
 // ****************************** Task 16 ******************************
 // ****************************** Task 17 ******************************
