@@ -391,33 +391,60 @@
 
 // ****************************** Task 14 ******************************
 
-var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+// var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
 
-var customerName = "ABC customer"
-var currentMonth = months[new Date().getMonth()];
-var numberOfUnits = 410;
-var chargesPerUnit = 16;
-var netAmountPayable = numberOfUnits*chargesPerUnit; 
-var latePaymentSurcharge = 350;
-var grossAmountPayable = netAmountPayable+latePaymentSurcharge;
+// var customerName = "ABC customer"
+// var currentMonth = months[new Date().getMonth()];
+// var numberOfUnits = 410;
+// var chargesPerUnit = 16;
+// var netAmountPayable = numberOfUnits*chargesPerUnit; 
+// var latePaymentSurcharge = 350;
+// var grossAmountPayable = netAmountPayable+latePaymentSurcharge;
 
-document.write("<h1>K Electric Bill<h1>");
-document.write("<h3>Customer Name : "+customerName+"<h3>");
-document.write("<h3>Current Month : "+currentMonth+"<h3>");
-document.write("<h3>Number of units : "+numberOfUnits+"<h3>");
-document.write("<h3>Charges per unit : "+chargesPerUnit+"<h3>");
-document.write("<h3>Net Amount Payable (within Due Date) : "+netAmountPayable+"<h3>");
-document.write("<h3>Late Payment Surcharge : "+latePaymentSurcharge+"<h3>");
-document.write("<h3>Gross Amount Payable (after Due Date) : "+grossAmountPayable+"<h3>");
-
-
+// document.write("<h1>K Electric Bill<h1>");
+// document.write("<h3>Customer Name : "+customerName+"<h3>");
+// document.write("<h3>Current Month : "+currentMonth+"<h3>");
+// document.write("<h3>Number of units : "+numberOfUnits+"<h3>");
+// document.write("<h3>Charges per unit : "+chargesPerUnit+"<h3>");
+// document.write("<h3>Net Amount Payable (within Due Date) : "+netAmountPayable+"<h3>");
+// document.write("<h3>Late Payment Surcharge : "+latePaymentSurcharge+"<h3>");
+// document.write("<h3>Gross Amount Payable (after Due Date) : "+grossAmountPayable+"<h3>");
 
 
-// ***************************** Chapter  **************************** 
+
+
+// ***************************** Chapter 35-38  **************************** 
 
 // ****************************** Task 1 ******************************
+
+// function tellMeDate(){
+//     var currentDate = new Date();
+//     document.write("<h1>"+currentDate+"</h1>");
+// }
+
+// tellMeDate(); //funtion call
+
 // ****************************** Task 2 ******************************
+
+// function greet(firstName,lastName){
+//     alert("Hello! "+firstName+" "+lastName);
+// }
+
+// var fname = prompt("Enter your first name : ");
+// var lname = prompt("Enter your last name : ");
+// greet(fname,lname);
+
 // ****************************** Task 3 ******************************
+
+// function sum(op1,op2){
+//     return(op1+op2);
+// }
+// var a = +prompt("Enter your first number : ");
+// var b = +prompt("Enter your second number : ");
+
+// alert("Sum is "+sum(a,b));
+
+
 // ****************************** Task 4 ******************************
 // ****************************** Task 5 ******************************
 // ****************************** Task 6 ******************************
