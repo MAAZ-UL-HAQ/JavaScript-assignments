@@ -446,7 +446,42 @@
 
 
 // ****************************** Task 4 ******************************
+
+// function calculator(op1,op2,operation){
+//     if(operation === "+"){
+//         return(op1+op2);
+//     }
+//     else if(operation === "+"){
+//         return(op1+op2);
+//     }   
+//     else if(operation === "-"){
+//         return(op1-op2);
+//     }    
+//     else if(operation === "*"){
+//         return(op1*op2);
+//     }    
+//     else if(operation === "/"){
+//         return(op1/op2);
+//     }
+//     else{
+//         return("Invalid Operation");
+//     }
+// }
+// var a = +prompt("Enter your first operand : ");
+// var b = +prompt("Enter your second operand : ");
+// var c = prompt("Enter your second operation (+,-,*,/) : ");
+
+// alert("Result \n"+a+c+b+" = "+calculator(a,b,c));
+
+
 // ****************************** Task 5 ******************************
+
+// function square(a){
+//     return(a*a);
+// }
+// var num = +prompt("Enter a number to calculate its square : ");
+// alert("The square of "+num+" is "+square(num));
+
 // ****************************** Task 6 ******************************
 // ****************************** Task 7 ******************************
 // ****************************** Task 8 ******************************
