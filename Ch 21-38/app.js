@@ -557,7 +557,36 @@
 // alert("Area = "+area2);
 
 // ****************************** Task 10 ******************************
+
+// var string = prompt("Enter a string : ");
+// var reverseString = "";
+
+// for(var m = string.length-1 ; m >= 0 ; m --){
+//     reverseString = reverseString + string[m];
+// }
+
+// if(string === reverseString){
+//     alert(string+" is palindrome");
+// }
+// else{
+//     alert(string+" is not palindrome");
+// }
+
 // ****************************** Task 11 ******************************
+
+// function toTitleCase(string){
+//     string=string[0].toUpperCase() +string.slice(1).toLowerCase();
+//     for(var i=0;i<string.length;i++){
+//         if(string[i]===" "){
+//             string=string.slice(0,i+1)+string[i+1].toUpperCase()+string.slice(i+2);
+//         }
+//     }
+//     return(string);
+// }
+
+// var a = prompt("Enter a string : ");
+// alert(toTitleCase(a));
+
 // ****************************** Task 12 ******************************
 // ****************************** Task 13 ******************************
 // ****************************** Task 14 ******************************
