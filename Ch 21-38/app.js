@@ -220,8 +220,24 @@
 // document.write("randome dice value : "+random+"<br>");
 
 // ****************************** Task 5 ******************************
+
+// var random = Math.ceil(Math.random()*2);
+
+// if(random===1){
+//     document.write(random+"<br>Random coin value : Tails");
+// }
+// else{
+//     document.write(random+"<br>Random coin value : Heads");
+// }
+
 // ****************************** Task 6 ******************************
+
+// var random = Math.ceil(Math.random()*100);
+// document.write("randome value between 1-100 is : "+random+"<br>");
+
 // ****************************** Task 7 ******************************
+
+
 // ****************************** Task 8 ******************************
 // ****************************** Task 9 ******************************
 // ****************************** Task 10 ******************************
