@@ -285,7 +285,32 @@
 // alert(day);
 
 // ****************************** Task 4 ******************************
+
+// var daysInWeek = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+// var date= new Date();
+// var dayIndex = date.getDay();
+// var day = daysInWeek[dayIndex];
+
+// if(day === "Sun" || day === "Sat"){
+//     alert("It's fun dat")
+// }
+// else{
+//     alert("NOt a fun day")
+// }
+
 // ****************************** Task 5 ******************************
+
+// var date= new Date();
+// var dateNo = date.getDate();
+
+// if(dateNo <= 15){
+//     alert("first 15 days of month")
+// }
+// else{
+//     alert("last days of month")
+// }
+
 // ****************************** Task 6 ******************************
 // ****************************** Task 7 ******************************
 // ****************************** Task 8 ******************************
