@@ -606,8 +606,32 @@
 // alert("Longest word is "+findLongestWord(a));
 
 // ****************************** Task 13 ******************************
+
+// function count(string,character)
+// {
+//     var count=0
+//     for(var x=0; x<string.length; x++){
+//         if(string[x]===character){
+//             count++
+//         }
+//     }
+//     return(count)
+// }
+
+// var c = count('JSResourceS.com', 'o')
+// alert("Count of occurance of 'o' in 'JSResourceS.com' is "+c)
+
 // ****************************** Task 14 ******************************
-// ****************************** Task 15 ******************************
-// ****************************** Task 16 ******************************
-// ****************************** Task 17 ******************************
-// ****************************** Task 18 ******************************
+
+// function calcCircumference(radius){
+//     var circumference = 2*3.142*radius;
+//     return("The circumference is "+circumference.toFixed(2));
+// }
+// function calcArea(radius){
+//     var area = 3.142*radius*radius;
+//     return("The area is "+area.toFixed(2));
+// }
+
+// var r = +prompt("Enter radius of circle");
+// document.write(calcCircumference(r)+"<br>");
+// document.write(calcArea(r)+"<br>");
