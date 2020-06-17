@@ -264,8 +264,26 @@
 // ***************************** Chapter 31-34  **************************** 
 
 // ****************************** Task 1 ******************************
+
+// var date = new Date();
+// document.write(date);
+
 // ****************************** Task 2 ******************************
+
+// var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+// var monthIndex = (new Date()).getMonth();
+// var month = months[monthIndex];
+// document.write("Current month : "+month);
+
 // ****************************** Task 3 ******************************
+
+// var daysInWeek = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+// var date= new Date();
+// var dayIndex = date.getDay();
+// var day = daysInWeek[dayIndex];
+// alert(day);
+
 // ****************************** Task 4 ******************************
 // ****************************** Task 5 ******************************
 // ****************************** Task 6 ******************************
