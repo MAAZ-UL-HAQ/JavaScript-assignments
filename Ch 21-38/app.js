@@ -194,15 +194,31 @@
 
 // ****************************** Task 1 ******************************
 
-// var input = +prompt("Enter a decimal number");
+// var input = +prompt("Enter a positive floating point number");
 // document.write("Number : " + input + "<br>");
 // document.write("Round off value : " + Math.round(input) + "<br>");
 // document.write("Floor value : " + Math.floor(input) + "<br>");
 // document.write("Ceiling value : " + Math.ceil(input) + "<br>");
 
 // ****************************** Task 2 ******************************
+
+// var input = +prompt("Enter a negative floating point number");
+// document.write("Number : " + input + "<br>");
+// document.write("Round off value : " + Math.round(input) + "<br>");
+// document.write("Floor value : " + Math.floor(input) + "<br>");
+// document.write("Ceiling value : " + Math.ceil(input) + "<br>");
+
 // ****************************** Task 3 ******************************
+
+// var input = +prompt("Enter a number.");
+// var absoluteValue = Math.abs(input);
+// document.write("The absolute value of " + input + " is "+ absoluteValue +".<br>");
+
 // ****************************** Task 4 ******************************
+
+// var random = Math.ceil(Math.random()*6);
+// document.write("randome dice value : "+random+"<br>");
+
 // ****************************** Task 5 ******************************
 // ****************************** Task 6 ******************************
 // ****************************** Task 7 ******************************
