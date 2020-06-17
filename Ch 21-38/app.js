@@ -312,7 +312,25 @@
 // }
 
 // ****************************** Task 6 ******************************
+
+// var date= new Date();
+// var timeMilli = date.getTime();
+// var timeMin = timeMilli/(1000*60);
+
+// document.write("current date                            :  "+date+"<br>");
+// document.write("milliseconds from midnight jan 1, 1970  :  "+timeMilli+"<br>");
+// document.write("minutes from midnight jan 1, 1970       :  "+timeMin+"<br>");
+
 // ****************************** Task 7 ******************************
+
+// var hour = new Date().getHours()
+// if(hour<=11){
+//     alert("It's AM");
+// }
+// else{
+//     alert("It's PM");
+// }
+
 // ****************************** Task 8 ******************************
 // ****************************** Task 9 ******************************
 // ****************************** Task 10 ******************************
