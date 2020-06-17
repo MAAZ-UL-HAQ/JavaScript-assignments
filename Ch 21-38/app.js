@@ -588,6 +588,23 @@
 // alert(toTitleCase(a));
 
 // ****************************** Task 12 ******************************
+
+// function findLongestWord(string)
+// {
+//     var arr = string.split(" ")
+//     var longestWord=arr[0];
+//     for(var i=0; i<arr.length; i++)
+//     {
+//         if(arr[i].length>longestWord.length){
+//             longestWord=arr[i];
+//         }
+//     }
+//     return(longestWord);
+// }
+
+// var a = prompt("Enter a string : ");
+// alert("Longest word is "+findLongestWord(a));
+
 // ****************************** Task 13 ******************************
 // ****************************** Task 14 ******************************
 // ****************************** Task 15 ******************************
