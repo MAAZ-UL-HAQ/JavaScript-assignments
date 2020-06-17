@@ -391,12 +391,24 @@
 
 // ****************************** Task 14 ******************************
 
+var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
 
+var customerName = "ABC customer"
+var currentMonth = months[new Date().getMonth()];
+var numberOfUnits = 410;
+var chargesPerUnit = 16;
+var netAmountPayable = numberOfUnits*chargesPerUnit; 
+var latePaymentSurcharge = 350;
+var grossAmountPayable = netAmountPayable+latePaymentSurcharge;
 
-// ****************************** Task 15 ******************************
-// ****************************** Task 16 ******************************
-// ****************************** Task 17 ******************************
-// ****************************** Task 18 ******************************
+document.write("<h1>K Electric Bill<h1>");
+document.write("<h3>Customer Name : "+customerName+"<h3>");
+document.write("<h3>Current Month : "+currentMonth+"<h3>");
+document.write("<h3>Number of units : "+numberOfUnits+"<h3>");
+document.write("<h3>Charges per unit : "+chargesPerUnit+"<h3>");
+document.write("<h3>Net Amount Payable (within Due Date) : "+netAmountPayable+"<h3>");
+document.write("<h3>Late Payment Surcharge : "+latePaymentSurcharge+"<h3>");
+document.write("<h3>Gross Amount Payable (after Due Date) : "+grossAmountPayable+"<h3>");
 
 
 
