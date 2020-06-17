@@ -483,8 +483,53 @@
 // alert("The square of "+num+" is "+square(num));
 
 // ****************************** Task 6 ******************************
+
+// function factorial(num){
+//     var f=1;
+//     if(num>0)
+//     {
+//         for(var i=num ; i>0 ;i--){
+//             f=f*i;
+//         }
+//         return(f);
+//     }
+//     if(num===0){
+//         return(1);
+//     }
+//     else{
+//         return("Invalid input");
+//     }
+// }
+
+// var a = +prompt("Enter a number to calculate its factorial : ");
+// alert("The factorial of "+a+" is "+factorial(a));
+
 // ****************************** Task 7 ******************************
+
+// function counting(start,end)
+// {
+//     if(start<end){
+//         for(var i=start;i<=end;i++)
+//         {
+//             document.write(i+" ")
+//         }
+//     }
+//     else{
+//         for(var i=start;i>=end;i--)
+//         {
+//             document.write(i+" ")
+//         }
+//     }
+//     document.write("<br>");
+// }
+
+// counting(5,17);
+// counting(50,40);
+
 // ****************************** Task 8 ******************************
+
+
+
 // ****************************** Task 9 ******************************
 // ****************************** Task 10 ******************************
 // ****************************** Task 11 ******************************
