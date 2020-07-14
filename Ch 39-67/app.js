@@ -2,6 +2,13 @@
 
 // ****************************** Task 1 ******************************
 
+function power(a,b){
+    return a**b ;
+}
+var num1 = Number(prompt("Enter 1st number"));
+var num2 = Number(prompt("Enter 2nd number"));
+alert(num1+"^"+num2+"="+power(num1,num2));
+
 // ****************************** Task 2 ******************************
 
 // ****************************** Task 3 ******************************
