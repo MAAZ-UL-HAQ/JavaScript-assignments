@@ -2,14 +2,36 @@
 
 // ****************************** Task 1 ******************************
 
-function power(a,b){
-    return a**b ;
-}
-var num1 = Number(prompt("Enter 1st number"));
-var num2 = Number(prompt("Enter 2nd number"));
-alert(num1+"^"+num2+"="+power(num1,num2));
+// function power(a,b){
+//     return a**b ;
+// }
+// var num1 = Number(prompt("Enter 1st number"));
+// var num2 = Number(prompt("Enter 2nd number"));
+// alert(num1+"^"+num2+"="+power(num1,num2));
 
 // ****************************** Task 2 ******************************
+
+function isLeap(year){
+    if(year%4==0){
+        if(year%100){
+            if(year%400){
+                alert(year + " is a leap year with 366 days");
+            }
+            else{
+                alert(year + " is NOT a leap year and has 365 days");
+            }
+        }
+        else{
+            alert(year + " is a leap year with 366 days");
+        }
+    }
+    else{
+        alert(year + " is NOT a leap year and has 365 days");
+    }
+}
+
+var year = +prompt("Enter year to find whether year is leap year");
+isLeap(year);
 
 // ****************************** Task 3 ******************************
 
