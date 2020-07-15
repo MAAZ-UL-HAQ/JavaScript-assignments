@@ -11,29 +11,46 @@
 
 // ****************************** Task 2 ******************************
 
-function isLeap(year){
-    if(year%4==0){
-        if(year%100){
-            if(year%400){
-                alert(year + " is a leap year with 366 days");
-            }
-            else{
-                alert(year + " is NOT a leap year and has 365 days");
-            }
-        }
-        else{
-            alert(year + " is a leap year with 366 days");
-        }
-    }
-    else{
-        alert(year + " is NOT a leap year and has 365 days");
-    }
-}
+// function isLeap(year){
+//     if(year%4==0){
+//         if(year%100){
+//             if(year%400){
+//                 alert(year + " is a leap year with 366 days");
+//             }
+//             else{
+//                 alert(year + " is NOT a leap year and has 365 days");
+//             }
+//         }
+//         else{
+//             alert(year + " is a leap year with 366 days");
+//         }
+//     }
+//     else{
+//         alert(year + " is NOT a leap year and has 365 days");
+//     }
+// }
 
-var year = +prompt("Enter year to find whether year is leap year");
-isLeap(year);
+// var year = +prompt("Enter year to find whether year is leap year");
+// isLeap(year);
 
 // ****************************** Task 3 ******************************
+
+// function calcTriangleArea(a,b,c){
+//     var s = calcS(a,b,c);
+//     var area = s*(s-a)*(s-b)*(s-c);
+//     return area ;
+// }
+
+// function calcS(a,b,c){
+//     var s = (a + b + c)/2
+//     return s;
+// }
+
+// var sides = prompt("Enter three sides of triangle (comma separated) to compute area");
+
+// var a = sides.split(",");
+// var triangleArea = calcTriangleArea(parseInt(a[0]) , parseInt(a[1]) , parseInt(a[2]));
+// alert("Area of triangle with sides "+a[0]+" , "+a[1]+" , "+a[2]+" is "+triangleArea);
 
 // ****************************** Task 4 ******************************
 
