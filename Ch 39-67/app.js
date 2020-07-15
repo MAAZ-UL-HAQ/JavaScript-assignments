@@ -101,7 +101,20 @@
 
 // ****************************** Task 6 ******************************
 
+function delVowel(string){
+    for(var i=0;i<string.length;i++){
+        if(string[i]=="a" || string[i]=="e" || string[i]=="i" || string[i]=="o" || string[i]=="u" || string[i]=="A" || string[i]=="E" || string[i]=="I" || string[i]=="O" || string[i]=="U" ){
+            string=string.slice(0,i)+string.slice(i+1);
+            i--
+        }
+    }
+    return string
+}
 
+var text = prompt("Input string to delete vowel:")
+var withoutVowel = delVowel(text);
+
+alert("Vowel are deleted :).. \nOld string: \'" + text + "\'\nNew string: \'"+withoutVowel+"\'");
 
 // ****************************** Task 7 ******************************
 
