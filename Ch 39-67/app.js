@@ -238,24 +238,33 @@
 
 // ****************************** Task 9 ******************************
 
-var totalHours = Math.round(+prompt("Enter total number of work hours (of whole week) of employee"));
-var otPay = overtimePay(totalHours)
-alert("Overtime Pay = Rs."+otPay);
+// var totalHours = Math.round(+prompt("Enter total number of work hours (of whole week) of employee"));
+// var otPay = overtimePay(totalHours)
+// alert("Overtime Pay = Rs."+otPay);
 
-function overtimePay(totalHrs){
-    var overtimePay;
-    if(totalHours > 40){
-        overtimePay = (totalHrs-40)*12;
-    }
-    else{
-        overtimePay=0
-    }
-    return overtimePay;
-}
+// function overtimePay(totalHrs){
+//     var overtimePay;
+//     if(totalHours > 40){
+//         overtimePay = (totalHrs-40)*12;
+//     }
+//     else{
+//         overtimePay=0
+//     }
+//     return overtimePay;
+// }
 
 // ****************************** Task 10 ******************************
 
+// function denominationNotes(amountWithdraw){
+//     var hunderd = Math.floor(amountWithdraw/100);
+//     var fifty = Math.floor((amountWithdraw%100)/50);
+//     var ten = Math.floor((amountWithdraw%100)%50/10);
+//     var coins = (amountWithdraw%100)%50%10;
+//     document.write("You will have "+hunderd+" hunderd note(s) "+fifty+" fifty note(s) "+ten+" ten note(s) and "+coins+" coin(s).")
+// }
 
+// var withdraw = +prompt("Enter amount to withdraw ?");
+// denominationNotes(withdraw);
 
 // ***************************** Chapter  **************************** 
 
