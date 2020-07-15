@@ -53,30 +53,55 @@
 // alert("Area of triangle with sides "+a[0]+" , "+a[1]+" , "+a[2]+" is "+triangleArea);
 
 // ****************************** Task 4 ******************************
-function calcAvg(a,b,c){
-    x = (a+b+c)/3;
-    return x;
-}
-function calcPercentage(avg){
-    var p = (avg/60)*100;
-    return p;
-}
-function main(){
-    var mark1 = +prompt("Enter marks (out of 60) in first subject  :");
-    var mark2 = +prompt("Enter marks (out of 60) in second subject :");
-    var mark3 = +prompt("Enter marks (out of 60) in third subject  :");
+// function calcAvg(a,b,c){
+//     x = (a+b+c)/3;
+//     return x;
+// }
+// function calcPercentage(avg){
+//     var p = (avg/60)*100;
+//     return p;
+// }
+// function main(){
+//     var mark1 = +prompt("Enter marks (out of 60) in first subject  :");
+//     var mark2 = +prompt("Enter marks (out of 60) in second subject :");
+//     var mark3 = +prompt("Enter marks (out of 60) in third subject  :");
 
-    var average = calcAvg(mark1,mark2,mark3).toFixed(2);
-    var percentage = calcPercentage(average).toFixed(2);
+//     var average = calcAvg(mark1,mark2,mark3).toFixed(2);
+//     var percentage = calcPercentage(average).toFixed(2);
 
-    alert("Average = " + average + "\nPercentage = " + percentage+"%");
-}
+//     alert("Average = " + average + "\nPercentage = " + percentage+"%");
+// }
 
-main();
+// main();
 
 // ****************************** Task 5 ******************************
 
+// function indexOf(text,subString){
+//     var b =subString.length;
+//     var found = false;
+//     for(var a=0; a<text.length; a++) {
+//         if(text.slice(a,a+b) === subString){
+//             found = true;
+//             break;
+//         }
+//     }
+//     if(found){
+//         return(a);
+//     }
+//     else{
+//         return(-1);
+//     }
+// }
+
+// var text = prompt("Enter text");
+// var subString = prompt("Enter subString to find its first occurance in entered text");
+
+// var index = indexOf(text,subString);
+// alert("Index of \""+subString+"\" in \n\""+text+"\" is "+index);
+
 // ****************************** Task 6 ******************************
+
+
 
 // ****************************** Task 7 ******************************
 
