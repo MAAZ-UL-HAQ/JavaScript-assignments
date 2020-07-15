@@ -118,98 +118,116 @@
 
 // ****************************** Task 7 ******************************
 
-// var occurance = []
+// var occurance = [];
 // function countVowelPair(text) {
-//     text = text.toLowerCase;
+//     var pairStr = ""
 //     var count = 0;
+//     var pairCount = 0;
 //     for (var i = 0; i < text.length; i++) {
-//         switch (text.slice(i, i + 2)) {
-//             case "aa":
-//                 count++ ; occurance.push("aa");
+//         switch (text[i]) {
+//             case 'a':
+//                 pairCount++; 
+//                 pairStr+='a';
+//                 if (pairCount == 2) { 
+//                     pairCount = 0; count++;
+//                     occurance.push(pairStr);
+//                     pairStr = ""; 
+//                 }
 //                 break;
-//             case "ae":
-//                 count++ ; occurance.push("ae");
+//             case 'e':
+//                 pairCount++; 
+//                 pairStr+='e';
+//                 if (pairCount == 2) { 
+//                     pairCount = 0; count++;
+//                     occurance.push(pairStr);
+//                     pairStr = ""; 
+//                 }
 //                 break;
-//             case "ai":
-//                 count++ ; occurance.push("ai");
+//             case 'i':
+//                 pairCount++; 
+//                 pairStr+='i';
+//                 if (pairCount == 2) { 
+//                     pairCount = 0; count++;
+//                     occurance.push(pairStr);
+//                     pairStr = ""; 
+//                 }
 //                 break;
-//             case "ao":
-//                 count++ ; occurance.push("ao");
+//             case 'o':
+//                 pairCount++; 
+//                 pairStr+='o';
+//                 if (pairCount == 2) { 
+//                     pairCount = 0; count++;
+//                     occurance.push(pairStr);
+//                     pairStr = ""; 
+//                 }
 //                 break;
-//             case "au":
-//                 count++ ; occurance.push("au");
+//             case 'u':
+//                 pairCount++; 
+//                 pairStr+='u';
+//                 if (pairCount == 2) { 
+//                     pairCount = 0; count++;
+//                     occurance.push(pairStr);
+//                     pairStr = ""; 
+//                 }
 //                 break;
-//             case "ea":
-//                 count++ ; occurance.push("ea");
+//             case 'A':
+//                 pairCount++; 
+//                 pairStr+='A';
+//                 if (pairCount == 2) { 
+//                     pairCount = 0; count++;
+//                     occurance.push(pairStr);
+//                     pairStr = ""; 
+//                 }
 //                 break;
-//             case "ee":
-//                 count++ ; occurance.push("ee");
+//             case 'E':
+//                 pairCount++; 
+//                 pairStr+='E';
+//                 if (pairCount == 2) { 
+//                     pairCount = 0; count++;
+//                     occurance.push(pairStr);
+//                     pairStr = ""; 
+//                 }
 //                 break;
-//             case "ei":
-//                 count++ ; occurance.push("ei");
+//             case 'I':
+//                 pairCount++; 
+//                 pairStr+='I';
+//                 if (pairCount == 2) { 
+//                     pairCount = 0; count++;
+//                     occurance.push(pairStr);
+//                     pairStr = ""; 
+//                 }
 //                 break;
-//             case "eo":
-//                 count++ ; occurance.push("eo");
+//             case 'O':
+//                 pairCount++; 
+//                 pairStr+='O';
+//                 if (pairCount == 2) { 
+//                     pairCount = 0; count++;
+//                     occurance.push(pairStr);
+//                     pairStr = ""; 
+//                 }
 //                 break;
-//             case "eu":
-//                 count++ ; occurance.push("eu");
-//                 break;
-//             case "ia":
-//                 count++ ; occurance.push("ia");
-//                 break;
-//             case "ie":
-//                 count++ ; occurance.push("ie");
-//                 break;
-//             case "ii":
-//                 count++ ; occurance.push("ii");
-//                 break;
-//             case "io":
-//                 count++ ; occurance.push("io");
-//                 break;
-//             case "iu":
-//                 count++ ; occurance.push("iu");
-//                 break;
-//             case "oa":
-//                 count++ ; occurance.push("oa");
-//                 break;
-//             case "oe":
-//                 count++ ; occurance.push("oe");
-//                 break;
-//             case "oi":
-//                 count++ ; occurance.push("oi");
-//                 break;
-//             case "oo":
-//                 count++ ; occurance.push("oo");
-//                 break;
-//             case "ou":
-//                 count++ ; occurance.push("ou");
-//                 break;
-//             case "ua":
-//                 count++ ; occurance.push("ua");
-//                 break;
-//             case "ue":
-//                 count++ ; occurance.push("ue");
-//                 break;
-//             case "ui":
-//                 count++ ; occurance.push("ui");
-//                 break;
-//             case "uo":
-//                 count++ ; occurance.push("uo");
-//                 break;
-//             case "uu":
-//                 count++ ; occurance.push("uu");
+//             case 'U':
+//                 pairCount++; 
+//                 pairStr+='U';
+//                 if (pairCount == 2) { 
+//                     pairCount = 0; count++;
+//                     occurance.push(pairStr);
+//                     pairStr = ""; 
+//                 }
 //                 break;
 //             default:
-//                 break;
+//                 pairCount = 0;
+//                 pairStr = "";
+//                 break
 //         }
 //     }
 //     return count;
 // }
 
-// var s = prompt("Enter string to count pairs of successive vowels:");
-// var c = countVowelPair(s);
+// var str = prompt("Enter string to count pairs of successive vowels:");
+// var totalVowelPair = countVowelPair(str);
 
-// alert("String : \'" + s + "\'\nPair count = " + c + "\noccurance : " + occurance);
+// alert("String : \'" + str + "\'\nPair count = " + totalVowelPair + "\noccurance : " + occurance);
 
 // ****************************** Task 8 ******************************
 
@@ -266,7 +284,7 @@
 // var withdraw = +prompt("Enter amount to withdraw ?");
 // denominationNotes(withdraw);
 
-// ***************************** Chapter  **************************** 
+// ***************************** Chapter 43-48  **************************** 
 
 // ****************************** Task 1 ******************************
 
