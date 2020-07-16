@@ -341,8 +341,44 @@
 
 
 // ****************************** Task 1 ******************************
+// var firstName = document.getElementById('FirstName');
+// var lastName = document.getElementById('LastName');
+// var dob = document.getElementById('dob');
+// var mobNo = document.getElementById('phoneNo');
+// var email = document.getElementById('email');
+// var infoDiv = document.getElementById('info')
+
+// function display(){
+//     infoDiv.innerHTML = ""
+//     var h1 = document.createElement('h1');
+//     var t = document.createTextNode('Sign up information');
+//     h1.appendChild(t);
+//     infoDiv.appendChild(h1)
+
+//     var p1 = document.createElement('p');    
+//     infoDiv.appendChild(p1);
+//     p1.innerHTML = 'name: '+firstName.value+" "+lastName.value;
+
+//     var p2 = document.createElement('p');    
+//     infoDiv.appendChild(p2);
+//     p2.innerHTML = 'Date of birth: '+dob.value;
+
+//     var p3 = document.createElement('p');    
+//     infoDiv.appendChild(p3);
+//     p3.innerHTML = 'Mobile # '+mobNo.value;
+
+//     var p4 = document.createElement('p');    
+//     infoDiv.appendChild(p4);
+//     p4.innerHTML = 'Email: '+email.value;
+// }
 
 // ****************************** Task 2 ******************************
+
+// function viewMore(){
+//     var text = "Almonds contain lots of healthy fats, fiber, protein, magnesium and vitamin E.The health benefits of almonds include lower blood sugar levels, reduced blood pressure and lower cholesterol levels. They can also reduce hunger and promote weight loss.All things considered, almonds are as close to perfect as a food can get.";
+//     var p = document.getElementById('para');
+//     p.innerHTML = text;
+// }
 
 // ****************************** Task 3 ******************************
 
