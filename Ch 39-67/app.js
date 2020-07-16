@@ -288,15 +288,23 @@
 
 // ****************************** Task 1 ******************************
 
-function doAlert(message){
-    alert(message);
-}
+// function doAlert(message){
+//     alert(message);
+// }
 
 // function call in html onClick attribute
 
 // ****************************** Task 2 ******************************
 
+// function displayMsg(message){
+//     alert(message);
+// }
+
+// function call in html onClick attribute
+
 // ****************************** Task 3 ******************************
+
+
 
 // ****************************** Task 4 ******************************
 
