@@ -421,15 +421,27 @@
 //     }
 // }
 
-// ***************************** Chapter  **************************** 
+// ***************************** Chapter 58-67 **************************** 
 
 
 // ****************************** Task 1 ******************************
 
+
+// var mainContent = document.getElementById('main-content');
+// console.log(mainContent.childNodes);
+// var render = document.getElementsByClassName('render');
+// document.write("inner Html of elements with class 'render' :<br>")
+// for(var i=0; i<render.length;i++){
+//     document.write(render[i].innerHTML +"<br>");
+// }
+
+// var fname = document.getElementById('first-name');
+// var lname = document.getElementById('last-name');
+// var email = document.getElementById('email');
+
+// fname.value = render[0].innerText;
+// lname.value = render[1].innerText;
+// email.value = render[2].innerText;
+
 // ****************************** Task 2 ******************************
 
-// ****************************** Task 3 ******************************
-
-// ****************************** Task 4 ******************************
-
-// ****************************** Task 5 ******************************
