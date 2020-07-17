@@ -382,11 +382,44 @@
 
 // ****************************** Task 3 ******************************
 
-// ****************************** Task 4 ******************************
+// var index = 0;
+// var table = document.getElementById("table2");
+// var name1 = document.getElementById("Name");
+// var class1 = document.getElementById("Class");
+// function insert(){
+//     index++;
+//     var row = table.insertRow(index)
+//     var cell1 = row.insertCell(0);
+//     var cell2 = row.insertCell(1);
+//     var cell3 = row.insertCell(2);
+//     var cell4 = row.insertCell(3);
+//     var cell5 = row.insertCell(4);
+//     row.id = index.toString();
+//     cell1.innerHTML = index;
+//     cell2.innerHTML = name1.value;
+//     cell3.innerHTML = class1.value;
+//     cell4.innerHTML = "<button onclick='edit("+index+")'>Edit</button>";
+//     cell5.innerHTML = "<button onclick='del("+index+")'>Delete</button>";
+//     name1.value = "";
+//     class1.value = "";
+// }
 
-// ****************************** Task 5 ******************************
-
-
+// function edit(id){
+//     var row = document.getElementById(id);
+//     var cells = row.getElementsByTagName('td');
+//     name1.value = cells[1].innerText;
+//     class1.value = cells[2].innerText;
+//     del(id);
+// }
+// function del(id){
+//     var row = document.getElementById(id);
+//     row.remove();
+//     index--;
+//     for(var i=1; i<=index; i++){
+//         table.rows[i].id = i;
+//         table.rows[i].cells[0].innerHTML = i;
+//     }
+// }
 
 // ***************************** Chapter  **************************** 
 
