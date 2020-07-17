@@ -426,22 +426,54 @@
 
 // ****************************** Task 1 ******************************
 
-
+// // ************ (i)
 // var mainContent = document.getElementById('main-content');
+
+// // ************ (ii)
 // console.log(mainContent.childNodes);
+
+// // ************ (iii)
 // var render = document.getElementsByClassName('render');
 // document.write("inner Html of elements with class 'render' :<br>")
 // for(var i=0; i<render.length;i++){
 //     document.write(render[i].innerHTML +"<br>");
 // }
 
+// // ************ (iv)
 // var fname = document.getElementById('first-name');
+// fname.value = render[0].innerText;
+
+// // ************ (v)
 // var lname = document.getElementById('last-name');
 // var email = document.getElementById('email');
-
-// fname.value = render[0].innerText;
 // lname.value = render[1].innerText;
 // email.value = render[2].innerText;
 
+
 // ****************************** Task 2 ******************************
 
+// ************ (i)
+var formContent = document.getElementById('form-content');
+console.log(formContent.nodeType);
+
+// ************ (ii)
+var lastName = document.getElementById('lastName');
+console.log(lastName.nodeType);
+console.log(lastName.childNodes[0].nodeType);
+
+// ************ (iii)
+lastName.childNodes[0].nodeValue = "Updated Last Name : Khan";
+
+// ************ (iv)
+var mainContent = document.getElementById('main-content');
+console.log(mainContent.firstChild);
+console.log(mainContent.lastChild);
+
+// ************ (v)
+console.log(lastName.nextSibling);
+console.log(lastName.previousSibling);
+
+// ************ (vi)
+var email = document.getElementById('email');
+console.log(email.nodeType);
+console.log(email.parentNode);
