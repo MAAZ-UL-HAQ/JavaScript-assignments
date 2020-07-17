@@ -421,6 +421,44 @@
 //     }
 // }
 
+// ***************************** Chapter 53-58 **************************** 
+
+
+// ****************************** Task 1 ******************************
+
+// function openModal(src){
+//     var modalImg = document.getElementById('modalImg')
+//     modalImg.src = src;
+//     modalImg.style.display = "block"
+//     modalImg.classList.remove('modal-close');
+//     modalImg.classList.add('modal-open');
+//     setTimeout(closeModal() , 550);
+// }
+// function closeModal(){
+//     var modalImg = document.getElementById('modalImg')
+//     modalImg.src = "";
+//     modalImg.classList.remove('modal-open');
+//     modalImg.classList.add('modal-close');
+//     modalImg.style.display = "none";
+// }
+
+// ****************************** Task 2 ******************************
+
+// function zoomIn(){
+//     var para = document.getElementById('paraToZoom');
+//     var fontSize = window.getComputedStyle(para,null).getPropertyValue('font-size');
+//     var i = fontSize.indexOf("px");
+//     var newFontSize = Number(fontSize.slice(0,i)) + 10;
+//     para.style.fontSize = newFontSize + "px";
+// }
+// function zoomOut(){
+//     var para = document.getElementById('paraToZoom');
+//     var fontSize = window.getComputedStyle(para,null).getPropertyValue('font-size');
+//     var i = fontSize.indexOf("px");
+//     var newFontSize = Number(fontSize.slice(0,i)) - 10;
+//     para.style.fontSize = newFontSize + "px";
+// }
+
 // ***************************** Chapter 58-67 **************************** 
 
 
@@ -452,28 +490,28 @@
 
 // ****************************** Task 2 ******************************
 
-// ************ (i)
-var formContent = document.getElementById('form-content');
-console.log(formContent.nodeType);
+// // ************ (i)
+// var formContent = document.getElementById('form-content');
+// console.log(formContent.nodeType);
 
-// ************ (ii)
-var lastName = document.getElementById('lastName');
-console.log(lastName.nodeType);
-console.log(lastName.childNodes[0].nodeType);
+// // ************ (ii)
+// var lastName = document.getElementById('lastName');
+// console.log(lastName.nodeType);
+// console.log(lastName.childNodes[0].nodeType);
 
-// ************ (iii)
-lastName.childNodes[0].nodeValue = "Updated Last Name : Khan";
+// // ************ (iii)
+// lastName.childNodes[0].nodeValue = "Updated Last Name : Khan";
 
-// ************ (iv)
-var mainContent = document.getElementById('main-content');
-console.log(mainContent.firstChild);
-console.log(mainContent.lastChild);
+// // ************ (iv)
+// var mainContent = document.getElementById('main-content');
+// console.log(mainContent.firstChild);
+// console.log(mainContent.lastChild);
 
-// ************ (v)
-console.log(lastName.nextSibling);
-console.log(lastName.previousSibling);
+// // ************ (v)
+// console.log(lastName.nextSibling);
+// console.log(lastName.previousSibling);
 
-// ************ (vi)
-var email = document.getElementById('email');
-console.log(email.nodeType);
-console.log(email.parentNode);
+// // ************ (vi)
+// var email = document.getElementById('email');
+// console.log(email.nodeType);
+// console.log(email.parentNode);
