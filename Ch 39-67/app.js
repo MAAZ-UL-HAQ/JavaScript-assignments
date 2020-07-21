@@ -323,7 +323,7 @@
 
 // var counter = 0;
 // var htmlCounter = document.getElementById('count');
-    
+
 // function modify(operator){
 //     if(operator=="+"){
 //         counter++;
@@ -426,21 +426,13 @@
 
 // ****************************** Task 1 ******************************
 
-// function openModal(src){
-//     var modalImg = document.getElementById('modalImg')
-//     modalImg.src = src;
-//     modalImg.style.display = "block"
-//     modalImg.classList.remove('modal-close');
-//     modalImg.classList.add('modal-open');
-//     setTimeout(closeModal() , 550);
-// }
-// function closeModal(){
-//     var modalImg = document.getElementById('modalImg')
-//     modalImg.src = "";
-//     modalImg.classList.remove('modal-open');
-//     modalImg.classList.add('modal-close');
-//     modalImg.style.display = "none";
-// }
+var modal = document.getElementById("exampleModal");
+var modalImg = document.getElementById('ModalImage');
+function showModal(e) {
+    modal.style.display = "block";
+    modalImg.src = e.src;
+}
+
 
 // ****************************** Task 2 ******************************
 
