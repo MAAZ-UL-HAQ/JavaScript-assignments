@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS assignments</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -195,24 +195,44 @@
     <!-- ***************************** Chapter 58-67  ****************************  -->
 
     <!-- ****************************** Task 1 ****************************** -->
+
+
+    <!-- images trigger modal -->
     <!-- <div id="img">
-        <img src="./media/ch 53-58/1.jpg" onclick="openModal('./media/ch 53-58/1.jpg')" width="25%" alt="">
-        <img src="./media/ch 53-58/2.jpg" onclick="openModal('./media/ch 53-58/2.jpg')" width="13%" alt="">
-        <img src="./media/ch 53-58/3.jpg" onclick="openModal('./media/ch 53-58/3.jpg')" width="25%" alt="">
-        <img src="./media/ch 53-58/4.png" onclick="openModal('./media/ch 53-58/4.png')" width="25%" alt="">
-        <img src="./media/ch 53-58/5.jpg" onclick="openModal('./media/ch 53-58/5.jpg')" width="25%" alt="">
-        <img src="./media/ch 53-58/6.jpg" onclick="openModal('./media/ch 53-58/6.jpg')" width="25%" alt="">
-        <img src="./media/ch 53-58/7.png" onclick="openModal('./media/ch 53-58/7.png')" width="25%" alt="">
-        <img src="./media/ch 53-58/8.jpg" onclick="openModal('./media/ch 53-58/8.jpg')" width="25%" alt="">
-        <img src="./media/ch 53-58/9.jpg" onclick="openModal('./media/ch 53-58/9.jpg')" width="25%" alt="">
-        <img src="./media/ch 53-58/10.jpg" onclick="openModal('./media/ch 53-58/10.jpg')" width="25%" alt="">
-        <img src="./media/ch 53-58/11.jpg" onclick="openModal('./media/ch 53-58/11.jpg')" width="25%" alt="">
-        <img src="./media/ch 53-58/12.jpg" onclick="openModal('./media/ch 53-58/12.jpg')" width="25%" alt="">
-        <img src="./media/ch 53-58/13.jpg" onclick="openModal('./media/ch 53-58/13.jpg')" width="25%" alt="">
-        <img src="./media/ch 53-58/14.png" onclick="openModal('./media/ch 53-58/14.png')" width="25%" alt="">
-        <img src="./media/ch 53-58/15.jpg" onclick="openModal('./media/ch 53-58/15.jpg')" width="25%" alt="">
-        <img id="modalImg" src="" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/1.jpg" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/2.jpg" onclick="showModal(this)" width="13%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/3.jpg" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/4.png" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/5.jpg" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/6.jpg" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/7.png" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/8.jpg" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/9.jpg" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/10.jpg" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/11.jpg" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/12.jpg" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/13.jpg" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/14.png" onclick="showModal(this)" width="25%" alt="">
+        <img data-toggle="modal" data-target="#exampleModal" src="./media/ch 53-58/15.jpg" onclick="showModal(this)" width="25%" alt="">
     </div> -->
+
+  
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+            <img src="" alt="" width="100%" id="ModalImage" >
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ -->
+
+
 
     <!-- ****************************** Task 2 ****************************** -->
 
@@ -276,7 +296,11 @@
 
 
 
-    <script src="./app.js"></script>
 </body>
+
+<script src="./app.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </html>
