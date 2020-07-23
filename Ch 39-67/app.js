@@ -426,12 +426,12 @@
 
 // ****************************** Task 1 ******************************
 
-var modal = document.getElementById("exampleModal");
-var modalImg = document.getElementById('ModalImage');
-function showModal(e) {
-    modal.style.display = "block";
-    modalImg.src = e.src;
-}
+// var modal = document.getElementById("exampleModal");
+// var modalImg = document.getElementById('ModalImage');
+// function showModal(e) {
+//     modal.style.display = "block";
+//     modalImg.src = e.src;
+// }
 
 
 // ****************************** Task 2 ******************************
